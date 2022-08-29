@@ -1,0 +1,9 @@
+
+.cache
+.npm
+.config/btop/btop.log
+.git-credentials
+.config/lazygit/state.yml
+.local/share
+gits/personal
+.viminfo
