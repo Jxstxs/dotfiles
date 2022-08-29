@@ -7,3 +7,4 @@
 .local/share
 gits/personal
 .viminfo
+.local/bin/giter
