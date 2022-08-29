@@ -1,0 +1,27 @@
+A -                                 a - 
+B -                                 b - 
+C -                                 c - open cheatsheet popup
+D -                                 d - 
+E -                                 e - 
+F -                                 f - 
+G -                                 g - opens lazygit in popup
+H - switch to prev window           h - move left pane
+I -                                 i - 
+J -                                 j - move down pane
+K -                                 k - move up pane
+L - switch to next window           l - move right pane
+M -                                 m - open macho man popup
+N -                                 n - create a new window
+O -                                 o - 
+P -                                 p - 
+Q - close a window                  q - close a pane
+R - reload tmux conf                r - open ranger in popup
+S -                                 s - split current pane horizontal
+T -                                 t - 
+U -                                 u - 
+V -                                 v - split current pane vertical
+W -                                 w - 
+X -                                 x - 
+Y -                                 y - 
+Z -                                 z - 
+
