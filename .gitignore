@@ -18,4 +18,5 @@ gits/personal
 .config/gtk-2.0
 .config/nitrogen
 .config/pulse
-.config/whatsapp-nativefier-d40211
+.config/whatsapp-nativefier-d40211.config/whatsapp-nativefier-d40211
+.config/nvim/plugin/packer_compiled.lua
