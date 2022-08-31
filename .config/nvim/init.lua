@@ -1,7 +1,6 @@
 require "new.options"
 require "new.keymaps"
 require "new.plugins"
-require "new.copilot"
 require "new.autocommands"
 require "new.colorscheme"
 require "new.cmp"
