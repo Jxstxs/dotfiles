@@ -47,7 +47,7 @@ super + shift + Return
 #################################################################
 
 ctrl + alt + Return
-     neovide --maximized
+    neovide --maximized
 
 #Nitrogen
 ctrl + alt + i
