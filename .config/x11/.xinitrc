@@ -1,8 +1,8 @@
 #!/bin/bash
 
 setxkbmap -option "compose:caps"
-xmodmap -e "keycode 48 = Return"
-xmodmap -e "keycode 47 = BackSpace"
+# xmodmap -e "keycode 48 = Return"
+# xmodmap -e "keycode 47 = BackSpace"
 
 # xrdb -merge ~/.dotf/configs/x11/.Xresources
 
