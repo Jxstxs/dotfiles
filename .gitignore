@@ -20,3 +20,8 @@ gits/personal
 .config/nvim/plugin/packer_compiled.lua
 .config/whatsapp-nativefier-d40211
 .config/ranger/plugins
+
+.config/flameshot/flameshot.ini
+.config/kritadisplayrc
+.config/kritarc
+.config/QtProject.conf
