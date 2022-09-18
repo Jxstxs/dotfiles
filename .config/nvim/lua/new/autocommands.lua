@@ -27,8 +27,8 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
     vim.opt_local.wrap = true
     vim.opt_local.spell = true
     vim.opt_local.spelllang = "de,en"
-    vim.opt_local.shiftwidth = 4
-    vim.opt_local.tabstop = 4
+    vim.opt_local.shiftwidth = 2
+    vim.opt_local.tabstop = 2
   end,
 })
 

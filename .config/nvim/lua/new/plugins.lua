@@ -82,10 +82,7 @@ return packer.startup(function(use)
   use { "nvim-telescope/telescope.nvim", commit = "d96eaa914aab6cfc4adccb34af421bdd496468b0" }
 
   -- Treesitter
-  use {
-    "nvim-treesitter/nvim-treesitter",
-    commit = "518e27589c0463af15463c9d675c65e464efc2fe",
-  }
+  use { "nvim-treesitter/nvim-treesitter", commit = "518e27589c0463af15463c9d675c65e464efc2fe" }
 
   -- Git
   use { "lewis6991/gitsigns.nvim", commit = "c18e016864c92ecf9775abea1baaa161c28082c3" }
@@ -109,7 +106,7 @@ return packer.startup(function(use)
   -- Own plugins
   use { "/home/julius/gits/personal/nvim-plugs/keystack.nvim" }
   -- use { "/home/julius/gits/personal/nvim-plugs/mdbook.nvim" }
-  use { "/home/julius/gits/personal/nvim-plugs/liki.nvim" }
+  use { "/home/julius/gits/personal/nvim-plugs/jaw.nvim" }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

@@ -3,6 +3,18 @@ if not status_ok then
 	return
 end
 
+local reload = function ()
+    local re = require('plenary.reload').reload_module
+    vim.ui.input(
+        { prompt = "Module to reload: " },
+        function (input)
+            if input ~= nil then
+                re(input)
+            end
+        end
+    )
+end
+
 local mappings_norm = {
 	w = { "<cmd>w!<cr>", "Save" },
 	q = { "<cmd>Bdelete!<cr>", "Close Buffer" },
@@ -59,7 +71,8 @@ local mappings_norm = {
     u = {
         name = "Usefull Stuff",
         v = { "<cmd>lua require('usefull').vip()<CR>", "Prints Inspect of Table" },
-        r = { "<cmd>lua require('usefull').reloadPlug()<CR>", "Reloads a Plugin" },
+        R = { "<cmd>lua require('usefull').reloadPlug()<CR>", "Reloads a Plugin" },
+        r = { reload, "Reloads the Module" }
     },
     ["<leader>"] = { "<cmd>lua require('which-key').show(' ')<CR>", "Show Whichkey" }
 }
