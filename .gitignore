@@ -32,3 +32,6 @@ gits/personal
 .config/github-copilot/hosts.json
 .config/onlyoffice/DesktopEditors.conf
 .config/ranger/__pycache__/commands.cpython-310.opt-1.pyc
+.config/xfce4
+.config/menus/applications-merged
+.config/Thunar
