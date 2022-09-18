@@ -1,1 +1,1 @@
-/home/julius/gits/personal/moohs/nvimconf/init.lua
+/home/julius/.gits/personal/moohs/nvimconf/init.lua
