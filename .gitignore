@@ -61,3 +61,14 @@
 .wakatime.log
 
 .local/share/ranger/history
+.cargo
+.gnome/apps
+.local/share/applications
+.local/share/desktop-directories
+.local/share/icons/hicolor/128x128/apps
+.local/share/xorg
+.pki/nssdb
+.wakatime.bdb
+.wakatime.cfg
+.wakatime.cfg
+.wget-hsts
