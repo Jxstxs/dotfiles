@@ -4,9 +4,9 @@
 .git-credentials
 .config/lazygit/state.yml
 .local/share
-gits/personal
+.local/state
+.gits
 .viminfo
-.local/bin/giter
 .config/google-chrome
 .config/GeoGebra
 .config/discord
@@ -20,7 +20,6 @@ gits/personal
 .config/nvim/plugin/packer_compiled.lua
 .config/whatsapp-nativefier-d40211
 .config/ranger/plugins
-
 .config/flameshot/flameshot.ini
 .config/kritadisplayrc
 .config/kritarc
@@ -35,3 +34,5 @@ gits/personal
 .config/xfce4
 .config/menus/applications-merged
 .config/Thunar
+
+.local/bin/giter
