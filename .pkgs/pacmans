@@ -12,3 +12,8 @@ luarocks
 wget
 fd
 ripgrep
+sxhkd
+picom
+dunst
+libnotify
+bc
