@@ -5,7 +5,6 @@
 .config/lazygit/state.yml
 .local/share
 .local/state
-.gits
 .viminfo
 .config/google-chrome
 .config/GeoGebra
