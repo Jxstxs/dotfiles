@@ -1,1 +1,6 @@
-/home/julius/.gits/personal/moohs/nvimconf/init.lua
+-- Init the Config
+local status, _ = pcall(require, "nvimconf.core")
+if not status then
+    print("[ERROR] Cannot load: core")
+    return nil
+end
