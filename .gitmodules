@@ -4,3 +4,6 @@
 [submodule ".config/nvim"]
 	path = .config/nvim
 	url = https://github.com/Jxstxs/nvimconf
+[submodule ".gits/personal/other/giter"]
+	path = .gits/personal/other/giter
+	url = https://gist.github.com/Jxstxs/4583a041bd77656cc86d4f7d13b62a62
