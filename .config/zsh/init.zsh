@@ -36,7 +36,7 @@ if [ -d "$HOME/.local/bin" ]; then PATH="$HOME/.local/bin:$PATH"; fi
 
 # Sourcing all Stuff (Aliases, Exports, Functions)
 source $HOME/.config/zsh/source/dirs.zsh
-# for src in $ZSHS/*; do; source $src; done
+for src in $HOME/.config/zsh/source/*; do; source $src; done
 
 if [[ ! -z "$DISPLAY" ]]; then
   if [[ -z "$TMUX" ]]; then
