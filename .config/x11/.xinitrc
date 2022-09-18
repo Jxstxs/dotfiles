@@ -16,6 +16,5 @@ else
     while true
     do
         dwm
-        dwmMouse
     done
 fi

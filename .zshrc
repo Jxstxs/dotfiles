@@ -12,10 +12,10 @@ ZSH_THEME_RANDOM_CANDIDATES=($ran_themes)
 
 # Loads Plugins
 plugin=()
-while IFS= read -r line; do plugin+=("$line"); done < $HOME/.config/zsh/zsh-themes
+while IFS= read -r line; do plugin+=("$line"); done < $HOME/.config/zsh/zsh-plugins
 plugins=($plugin)
 
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+# ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 export TERM="screen-256color"
 
 # Loads oh-my-zsh

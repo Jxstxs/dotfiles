@@ -7,8 +7,7 @@ export LLIB=$LOCAL/lib
 export OMZ=$LSRC/oh-my-zsh
 
 # Dirs in Home
-export CONF=$HOME/.config
-export GITD=$HOME/gits
+export GITD=$HOME/.gits
 export STUFF=$HOME/.stuff
 export TRASH=$STUFF/trash
 export CFGS=$HOME/.config

@@ -2,9 +2,12 @@
 # Super Stuff
 #################################################################
 
+super + Return
+    st
+
 # Dmenu
 super + d
-    dmenu_run -l 10 -g 3 -p "Run: "
+    dmenu_run #-l 10 -g 3 -p "Run: "
 
 # TaskManagers
 super + t 
@@ -68,14 +71,14 @@ XF86MonBrightnessDown
 XF86MonBrightnessUp
   sudo xbacklight +10
 
-XF86AudioMute
-  pulsemixer --id sink-0 --toggle-mute; pkill -RTMIN+17 dwmblocks
+# XF86AudioMute
+  # pulsemixer --id sink-0 --toggle-mute; pkill -RTMIN+17 dwmblocks
 
-XF86AudioLowerVolume
-  pulsemixer --id sink-0 --change-volume -5; pkill -RTMIN+17 dwmblocks
+# XF86AudioLowerVolume
+  # pulsemixer --id sink-0 --change-volume -5; pkill -RTMIN+17 dwmblocks
 
-XF86AudioRaiseVolume
-  pulsemixer --id sink-0 --change-volume +5; pkill -RTMIN+17 dwmblocks
+# XF86AudioRaiseVolume
+  # pulsemixer --id sink-0 --change-volume +5; pkill -RTMIN+17 dwmblocks
 
-XF86AudioMicMute
-  pulsemixer --id source-1 --toggle-mute; pkill -RTMIN+16 dwmblocks
+# XF86AudioMicMute
+  # pulsemixer --id source-1 --toggle-mute; pkill -RTMIN+16 dwmblocks
