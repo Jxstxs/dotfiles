@@ -1,4 +1,4 @@
-alias add_theme="echo "$RANDOM_THEME" >> $ZSHD/zsh-themes"
+# alias add_theme="echo "$RANDOM_THEME" >> $ZSHD/zsh-themes"
 
 function pacsi() {
     pkg_inst=$(pacman -Slq | fzf --preview "pacman -Si {}" -m | tr "\n" " " | xargs)
@@ -12,4 +12,4 @@ alias update_xres="xrdb -merge ~/.Xresources; xsetroot -name 'fsignal:reloadXres
 alias vim="nvim -u $CFGS/nvim/basic-new.lua"
 alias wiki="nvim -u $CFGS/nvim/wiki.lua"
 
-source $SCRS/std.sh
+# source $SCRS/std.sh
