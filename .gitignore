@@ -72,3 +72,6 @@
 .wakatime.cfg
 .wakatime.cfg
 .wget-hsts
+.local/share/nvim/neovide-settings.json
+.local/share/nvim/telescope_history
+.Xauthority
