@@ -33,5 +33,5 @@
 .config/xfce4
 .config/menus/applications-merged
 .config/Thunar
-
+.bash*
 .local/bin/giter
