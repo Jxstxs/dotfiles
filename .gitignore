@@ -25,3 +25,10 @@ gits/personal
 .config/kritadisplayrc
 .config/kritarc
 .config/QtProject.conf
+.config/Bootstrap Studio/Crashpad
+.config/GIMP/2.10
+.config/bashtop/error.log
+.config/bstudio
+.config/github-copilot/hosts.json
+.config/onlyoffice/DesktopEditors.conf
+.config/ranger/__pycache__/commands.cpython-310.opt-1.pyc
