@@ -1,0 +1,35 @@
+#!/bin/sh
+
+xmenu <<EOF | sh &
+Rotate
+	Normal	screen-rotate normal
+	Right	screen-rotate right
+	Left	screen-rotate left
+	Inverted	screen-rotate inverted
+Onboard
+	Start	onboard
+	Stop	pkill onboard
+NoMod Toggle	dwmMouse-msg run_command togglenomodbuttons
+
+Taskmanager
+	Btop	st btop
+	Gtop	st gtop
+	Htop	st htop
+	Top	st top
+
+Brightness
+	Plus	sudo xbacklight +10
+	Minus	sudo xbacklight -10
+	Max	sudo xbacklight -set 100
+	Low	sudo xbacklight -set 0
+Sound
+	Plus	pulsemixer --id sink-0 --change-volume +5
+	Minus	pulsemixer --id sink-0 --change-volume -5
+	Toggle Mute	pulsemixer --id sink-0 --toggle-mute
+
+Hibernate	systemctl hibernate
+Power
+	Suspend	systemctl suspend
+	Shutdown	systemctl poweroff
+	Reboot	reboot
+EOF

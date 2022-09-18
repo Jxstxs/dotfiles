@@ -1,0 +1,30 @@
+#!/bin/python3
+from sys import argv
+
+def main():
+    if (len(argv) < 3):
+        print("Not enough Arguments")
+    else:
+        file1 = None
+        file2 = None
+        with open(argv[1], "r") as fOne:
+            file1 = fOne.read()
+
+        with open(argv[2], "r") as fTwo:
+            file2 = fTwo.read()
+
+        if (file1) and (file2):
+            all_pkg = []
+            for pkg in file1.split("\n"):
+                if (pkg.strip() != "") and not (pkg.split(" ")[0].strip() in all_pkg):
+                    all_pkg.append(pkg.split(" ")[0].strip())
+            for pkg in file2.split("\n"):
+                if (pkg.strip() != "") and not (pkg.split(" ")[0].strip() in all_pkg):
+                    all_pkg.append(pkg.split(" ")[0].strip())
+
+            print("\n".join(all_pkg))
+        else:
+            print("Cant find Files")
+
+if __name__ == "__main__":
+    main()
