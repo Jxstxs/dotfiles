@@ -17,3 +17,9 @@
 [submodule ".local/share/nvim/site/pack/packer/start/packer.nvim"]
 	path = .local/share/nvim/site/pack/packer/start/packer.nvim
 	url = https://github.com/wbthomason/packer.nvim
+[submodule ".gits/other/yay"]
+	path = .gits/other/yay
+	url = https://aur.archlinux.org/yay.git
+[submodule ".gits/other/neovim"]
+	path = .gits/other/neovim
+	url = https://github.com/neovim/neovim
