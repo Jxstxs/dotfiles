@@ -3,7 +3,6 @@
 .config/btop/btop.log
 .git-credentials
 .config/lazygit/state.yml
-.local/share
 .local/state
 .viminfo
 .config/google-chrome
@@ -48,3 +47,17 @@
 .gits/personal/nvim-plugs
 .gits/personal/moohs
 .lesshst
+
+.local/share/iwctl
+.local/share/nvim/mason
+.local/share/nvim/project_nvim
+.local/share/nvim/shada
+.local/share/nvim/site/pack/packer-test/start
+.local/share/nvim/undo
+.local/share/nvim/.netrwhist
+.local/share/nvim/rplugin.vim
+.wakatime
+.wakatime-internal.cfg
+.wakatime.log
+
+.local/share/ranger/history
