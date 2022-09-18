@@ -19,7 +19,7 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 export TERM="screen-256color"
 
 # Loads oh-my-zsh
-# source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
 # Loads my Zsh Exports, Aliases and Functions
 source $HOME/.config/zsh/init.zsh
