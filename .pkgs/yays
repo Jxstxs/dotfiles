@@ -1,8 +1,12 @@
-google-chrome
 auto-cpufreq
+batsignal
 battop
 chroma
+google-chrome
 mkinitcpio-firmware
-noto-fonts-sc
+sysz
+tlpui
 ttf-meslo-nerd-font-powerlevel10k
-tty-clock-git
+update-grub
+xsudo-git
+yay
