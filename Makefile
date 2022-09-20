@@ -8,3 +8,12 @@ install-yays:
 
 install-pacmans:
 	sudo pacman -S --noconfirm --needed - < ${PKGS}/pacmans 
+
+install-pythons:
+	pip install -r ${PKGS}/pythons
+
+backup-pkgs:
+	pacman -Qnq > ${PKGS}/pacmans
+	pacman -Qqem > ${PKGS}/yays
+	pip freeze > ${PKGS}/pythons
+	git commit .pkgs/* -m "updated packages"
