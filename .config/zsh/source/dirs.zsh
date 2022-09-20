@@ -11,6 +11,7 @@ export GITD=$HOME/.gits
 export STUFF=$HOME/.stuff
 export TRASH=$STUFF/trash
 export CFGS=$HOME/.config
+export PKGS=$HOME/.pkgs
 
 # Change the Default Pass Directory
 export PASSWORD_STORE_DIR=$HOME/.stuff/.password-store
