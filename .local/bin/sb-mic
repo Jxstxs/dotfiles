@@ -1,12 +1,12 @@
 #!/bin/sh
 
 case $BLOCK_BUTTON in
-	1) pulsemixer --toggle-mute --id source-1 ;;
+	1) pulsemixer --toggle-mute --id source-57 ;;
 	3) st -e "pulsemixer" ;;
 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-case $(pulsemixer --get-mute --id source-1) in
+case $(pulsemixer --get-mute --id source-57) in
     0) echo "" ;;
     1) echo "" ;;
 esac
