@@ -23,3 +23,6 @@
 [submodule ".gits/other/neovim"]
 	path = .gits/other/neovim
 	url = https://github.com/neovim/neovim
+[submodule ".gits/personal/4583a041bd77656cc86d4f7d13b62a62"]
+	path = .gits/personal/4583a041bd77656cc86d4f7d13b62a62
+	url = https://gist.github.com/Jxstxs/4583a041bd77656cc86d4f7d13b62a62

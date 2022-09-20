@@ -8,8 +8,3 @@ function pacsi() {
 alias srcall="source $HOME/.zshrc"
 
 alias update_xres="xrdb -merge ~/.Xresources; xsetroot -name 'fsignal:reloadXresources'; pkill -USR1 st"
-
-alias vim="nvim -u $CFGS/nvim/basic-new.lua"
-alias wiki="nvim -u $CFGS/nvim/wiki.lua"
-
-# source $SCRS/std.sh
