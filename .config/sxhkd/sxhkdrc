@@ -4,22 +4,22 @@
 
 # Dmenu
 super + d
-    dmenu_run #-l 10 -g 3 -p "Run: "
+    dmenu_run -l 10 -g 3 -p "Run: "
 
 # TaskManagers
 # super + t 
 	# taskchooser
 
-# super + p
-    # st "pulsemixer"
+super + p
+    st "pulsemixer"
 
 # Std Browser
 super + b
     qutebrowser
 
 # Kill Client with Mouse
-# super + Escape
-    # xkill
+super + Escape
+    xkill
 
 # super + a
     # click4ever
@@ -28,8 +28,8 @@ super + b
 # Shift Stuff
 #################################################################
 
-# super + shift + p
-    # pavucontrol
+super + shift + p
+    pavucontrol
 
 # Google Chrome
 super + shift + b
@@ -43,8 +43,8 @@ super + shift + Return
 # Ctrl Stuff
 #################################################################
 
-ctrl + alt + Return
-    neovide --maximized
+# ctrl + alt + Return
+    # neovide --maximized
 
 #Nitrogen
 ctrl + alt + i
@@ -60,19 +60,19 @@ ctrl + shift + s
 
 # MBrightness
 XF86MonBrightnessDown
-  sudo xbacklight -10
+  brightnessctl s 10-
 
 XF86MonBrightnessUp
-  sudo xbacklight +10
+  brightnessctl s 10+
 
-# XF86AudioMute
-  # pulsemixer --id sink-0 --toggle-mute; pkill -RTMIN+17 dwmblocks
+XF86AudioMute
+  pulsemixer --id sink-56 --toggle-mute; pkill -RTMIN+17 dwmblocks
 
-# XF86AudioLowerVolume
-  # pulsemixer --id sink-0 --change-volume -5; pkill -RTMIN+17 dwmblocks
+XF86AudioLowerVolume
+  pulsemixer --id sink-56 --change-volume -5; pkill -RTMIN+17 dwmblocks
 
-# XF86AudioRaiseVolume
-  # pulsemixer --id sink-0 --change-volume +5; pkill -RTMIN+17 dwmblocks
+XF86AudioRaiseVolume
+  pulsemixer --id sink-56 --change-volume +5; pkill -RTMIN+17 dwmblocks
 
-# XF86AudioMicMute
-  # pulsemixer --id source-1 --toggle-mute; pkill -RTMIN+16 dwmblocks
+XF86AudioMicMute
+  pulsemixer --id source-57 --toggle-mute; pkill -RTMIN+16 dwmblocks
