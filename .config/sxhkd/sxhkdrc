@@ -66,13 +66,13 @@ XF86MonBrightnessUp
   brightnessctl s 10+
 
 XF86AudioMute
-  pulsemixer --id sink-56 --toggle-mute; pkill -RTMIN+17 dwmblocks
+  pulsemixer --id sink-58 --toggle-mute; pkill -RTMIN+17 dwmblocks
 
 XF86AudioLowerVolume
-  pulsemixer --id sink-56 --change-volume -5; pkill -RTMIN+17 dwmblocks
+  pulsemixer --id sink-58 --change-volume -5; pkill -RTMIN+17 dwmblocks
 
 XF86AudioRaiseVolume
-  pulsemixer --id sink-56 --change-volume +5; pkill -RTMIN+17 dwmblocks
+  pulsemixer --id sink-58 --change-volume +5; pkill -RTMIN+17 dwmblocks
 
 XF86AudioMicMute
-  pulsemixer --id source-57 --toggle-mute; pkill -RTMIN+16 dwmblocks
+  pulsemixer --id source-59 --toggle-mute; pkill -RTMIN+16 dwmblocks
