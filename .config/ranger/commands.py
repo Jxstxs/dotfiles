@@ -16,6 +16,12 @@ import os
 from ranger.api.commands import Command
 
 
+class cdler(Command):
+    def execute(self):
+        direct = self.fm.get_directory(self.fm.thistab.path)
+        # os.system(f"cd {self.fm.notify(self.fm.thistab.path)}")
+
+
 # Any class that is a subclass of "Command" will be integrated into ranger as a
 # command.  Try typing ":my_edit<ENTER>" in ranger!
 class my_edit(Command):
