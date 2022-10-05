@@ -9,7 +9,6 @@ Rotate
 Onboard
 	Start	onboard
 	Stop	pkill onboard
-NoMod Toggle	dwmMouse-msg run_command togglenomodbuttons
 
 Taskmanager
 	Btop	st btop
@@ -18,18 +17,18 @@ Taskmanager
 	Top	st top
 
 Brightness
-	Plus	sudo xbacklight +10
-	Minus	sudo xbacklight -10
-	Max	sudo xbacklight -set 100
-	Low	sudo xbacklight -set 0
+	Plus	brightnessctl s 10+
+	Minus	brightnessctl s 10-
+	Max	brightnessctl s 100%
+	Low	brightnessctl s 0%
 Sound
-	Plus	pulsemixer --id sink-0 --change-volume +5
-	Minus	pulsemixer --id sink-0 --change-volume -5
-	Toggle Mute	pulsemixer --id sink-0 --toggle-mute
+	Plus	pulsemixer --id sink-58 --change-volume +5
+	Minus	pulsemixer --id sink-58 --change-volume -5
+	Toggle Mute	pulsemixer --id source-59 --toggle-mute
 
 Hibernate	systemctl hibernate
 Power
 	Suspend	systemctl suspend
 	Shutdown	systemctl poweroff
-	Reboot	reboot
+	Reboot	systemctl reboot
 EOF
