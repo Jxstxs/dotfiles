@@ -32,6 +32,14 @@ backup-pkgs:
 	pip freeze > ${PKGS}/pythons
 	git commit .pkgs/* -m "updated packages"
 	echo "Package Backup done"
+
+setup-tlp:
+	sudo cp ${HOME}/.config/system/tlp.conf /etc/
+
+backup-tlp:
+	sudo cp /etc/tlp.conf ${HOME}/.config/system/
 	
-bootstrap: git-subm-init install-pacmans install-pythons install-neovim install-yay install-yays 
+bootstrap: git-subm-init install-pacmans install-pythons install-neovim install-yay install-yays setup-tlp
+
+backup: backup-pkgs backup-tlp
 
