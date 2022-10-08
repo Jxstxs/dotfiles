@@ -1,0 +1,12 @@
+#! /bin/bash
+
+# Dmenu wrapper for xopp2pdf
+# Julius Beier 05.10.2022
+
+input=$(fd -e xopp -t f -a "" $HOME/.gits/personal/other/schule/ | dmenu -p "Input File: " -l 10)
+output_dir=$HOME/.stuff/share/
+
+filename=$(echo "$input" | awk -F"/" '{print $NF}')
+output="$output_dir$filename.pdf"
+
+xopp2pdf "$input" "$output"
