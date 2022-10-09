@@ -7,8 +7,8 @@ super + d
     dmenu_run -l 10 -g 3 -p "Run: "
 
 # TaskManagers
-# super + t 
-	# taskchooser
+super + t
+	taskchooser
 
 super + p
     st "pulsemixer"
@@ -24,12 +24,18 @@ super + Escape
 # super + a
     # click4ever
 
-super + s + d
+#################################################################
+# Script Stuff
+#################################################################
+
+super + D
     $HOME/.local/bin/d_dmenus
 
+super + s
+    $HOME/.local/bin/dmenus/d_scripts
 
-super + s + s
-    $HOME/.local/bin/dmenus/d_screensetter
+# super + x
+    # $HOME/.local/bin/dmenus/d_powermenu
 
 #################################################################
 # Shift Stuff
