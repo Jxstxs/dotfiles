@@ -1,0 +1,6 @@
+#! /bin/bash
+
+xinput --map-to-output "Wacom Pen and multitouch sensor Finger" eDP
+xinput --map-to-output "Wacom Pen and multitouch sensor Pen" eDP
+xinput --map-to-output "Wacom Pen and multitouch sensor Pen Pen" eDP
+xinput --map-to-output "Wacom Pen and multitouch sensor Pen Eraser" eDP
