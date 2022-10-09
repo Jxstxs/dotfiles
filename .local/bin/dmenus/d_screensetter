@@ -5,4 +5,10 @@
 
 script=$(fd -t f "" $HOME/.local/bin/screenlayouts | dmenu -p "Screen Script: " -l 10)
 
-sh "$script"
+if [[ -n "$script" ]]; then
+    notify-send "scriptsetter" "running $script"
+    sh "$script"
+else
+    notify-send "scriptsetter" "cannot run '$script'"
+fi
+
