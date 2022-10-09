@@ -13,6 +13,8 @@
 # Change the argument to True to still load settings configured via autoconfig.yml
 config.load_autoconfig(False)
 
+config.set("url.start_pages", "file:///home/julius/.gits/other/startpage/index.html")
+
 config.set("colors.webpage.darkmode.enabled", True)
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
