@@ -24,6 +24,13 @@ super + Escape
 # super + a
     # click4ever
 
+super + s + d
+    $HOME/.local/bin/d_dmenus
+
+
+super + s + s
+    $HOME/.local/bin/dmenus/d_screensetter
+
 #################################################################
 # Shift Stuff
 #################################################################
