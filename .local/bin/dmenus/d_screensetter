@@ -3,7 +3,7 @@
 # Script to run predefined Screen Setup Scripts
 # Julius Beier 06.10.2022
 
-script=$(fd -t f "" $HOME/.local/bin/screenlayouts | dmenu -p "Screen Script: " -l 10)
+script=$(fd -t f "" $HOME/.local/bin/screenlayouts | dmenu -i -p "Screen Script: " -l 10)
 
 if [[ -n "$script" ]]; then
     notify-send "scriptsetter" "running $script"

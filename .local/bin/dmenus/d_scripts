@@ -3,7 +3,9 @@
 # Dmenu script to run all scripts from .local/bin
 # Julius Beier 09.10.2022
 
-script=$(fd --exact-depth 1 -t f "" $HOME/.local/bin | dmenu -p "Script: " -l 10)
+script_path=$HOME/.local/bin
+cd $script_path
+script=$(fd --exact-depth 1 -t f "" . | dmenu -i -p "Script: " -l 10)
 
 if [[ -n "$script" ]]; then
     notify-send "sriptrunner" "running $script"
