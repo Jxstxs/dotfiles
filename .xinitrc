@@ -13,7 +13,6 @@ if [[ "$HOSTNAME" = "archlinux-deskt" ]]; then
       dwm
   done
 else
-    wal -i ~/Downloads/wallhaven-9mjoy1_1920x1080.png
     while true
     do
         dwm
