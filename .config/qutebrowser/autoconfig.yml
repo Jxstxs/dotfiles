@@ -7,4 +7,14 @@
 config_version: 2
 settings:
   url.start_pages:
-    global: file:///home/julius/.gits/other/startpage/index.html
+    global: "file:///home/julius/.gits/other/startpage/index.html"
+  content.blocking.adblock.lists:
+    global:
+    - https://easylist.to/easylist/easylist.txt
+    - https://easylist.to/easylist/easyprivacy.txt
+    - https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters.txt
+  spellcheck.languages:
+    global:
+    - de-DE
+  tabs.background:
+    global: true
