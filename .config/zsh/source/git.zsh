@@ -1,4 +1,5 @@
 alias gs="git status"
+alias gsu="git status --untracked-files=normal"
 alias gl="git -P log | nvim"
 
 alias gb="git -P branch -a | nvim"

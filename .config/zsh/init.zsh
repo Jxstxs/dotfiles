@@ -25,6 +25,8 @@ export PAGER='most'
 setopt SHARE_HISTORY
 setopt GLOB_DOTS
 
+export EDITOR=nvim
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
