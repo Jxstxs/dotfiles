@@ -1,0 +1,50 @@
+fzf_filter crkb
+mkdir new
+mkdir old
+mkdir utils
+touch todo.lua
+touch keybindings.lua
+touch todo-comments.la
+rename todo-comments.lua
+rename keybindings.lua
+touch jawideas
+touch link.lua
+filter 
+touch tag.lua
+touch select.lua
+edit
+rename ideenq
+git add
+git add spell
+
+git commit spell "added 
+rename screenlayouts
+mkdir system
+fzf_filter mark
+edit home-server.md
+rename _config.h
+rename _patches.h
+edit ipc.h
+edit buttons.c
+edit buttons.h
+edit keys.h
+edit colors.h
+edit dmenus
+rename _patches-wc.h
+edit d_scripts
+chmod +x
+edit d_powermenu
+edit d_backgroundsetter
+fzf_filter nvim
+edit neogen.lua
+rename init.lua
+edit notify.lua
+edit noice.lua
+edit ufo.lua
+git worktree add main mn
+mkdir screenRotate
+git init
+edit screenRotate.lua
+edit Projektierung.md
+edit Krieg-in-Heimat.md
+delete

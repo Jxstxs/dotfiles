@@ -1,0 +1,1127 @@
+: 1663692014:0;lsa
+: 1663692016:0;cd
+: 1663692018:0;lsa
+: 1663692020:0;gs
+: 1663692033:0;rm -rf dotfiles
+: 1663692035:0;lsa
+: 1663692049:0;tmux
+: 1663692057:0;cat .gitmodules
+: 1663692081:0;cd .gits/personal
+: 1663692087:0;lsa
+: 1663692096:0;cd .gits
+: 1663692100:0;lsa
+: 1663692121:0;mkdir personal
+: 1663692144:0;git submodule add https://gist.github.com/Jxstxs/4583a041bd77656cc86d4f7d13b62a62 personal/4583a041bd77656cc86d4f7d13b62a62
+: 1663692148:0;gs
+: 1663692156:0;cd personal/4583a041bd77656cc86d4f7d13b62a62
+: 1663692161:0;./giter.lua a
+: 1663692164:0;./giter.lua
+: 1663692180:0;vim .gitmodules
+: 1663692190:0;which vim
+: 1663692210:0;..
+: 1663692211:0;lsa
+: 1663692237:0;ranger
+: 1663692279:0;cd .config/zsh/source
+: 1663692281:0;lsa
+: 1663692284:0;cat commands.zsh
+: 1663692315:0;mv commands.zsh ./../commands.zsh
+: 1663692317:0;srcall
+: 1663692320:0;vim
+: 1663692325:0;which vim
+: 1663692338:0;lsa
+: 1663692344:0;cat aliases.zsh
+: 1663692351:0;lsa
+: 1663692354:0;cat s
+: 1663692357:0;cat std.zsh
+: 1663692362:0;cat schule.zsh
+: 1663692373:0;exit
+: 1663692376:0;vim
+: 1663692390:0;cd
+: 1663692395:0;cd .gits/other/neovim
+: 1663692452:0;sudo pacman -S cmake unzip
+: 1663692460:0;tmux
+: 1663692489:0;make CMAKE_BUILD_TYPE=RelWithDebInfo
+: 1663692737:0;sudo make install
+: 1663692746:0;nvim --help
+: 1663692753:0;nvim -v
+: 1663692769:0;nvim
+: 1663692867:0;cd
+: 1663692873:0;ranger
+: 1663692903:0;srcall
+: 1663692909:0;scrall
+: 1663692913:0;exit
+: 1663692918:0;cd
+: 1663692921:0;tmux
+: 1663692924:0;lsa
+: 1663692927:0;ranger
+: 1663693117:0;make install-pacmans
+: 1663693163:0;export PKGS=$HOME/.pkgs
+: 1663693164:0;make install-pacmans
+: 1663693202:0;cd .gits/other/yay
+: 1663693205:0;makepkg -si
+: 1663693280:0;cd
+: 1663693285:0;make install-yays
+: 1663693449:0;battop
+: 1663693465:0;systemctl enable auto-cpufreq.service
+: 1663693469:0;sudo systemctl enable auto-cpufreq.service
+: 1663693480:0;lazygit
+: 1663693487:0;sudo pacman -S lazygit
+: 1663693499:0;lazygit
+: 1663693532:0;sudo pacman -S git-delta
+: 1663693535:0;lazygit
+: 1663693611:0;nvim .
+: 1663693694:0;giter
+: 1663693709:0;ranger
+: 1663693898:0;.gits/personal/4583a041bd77656cc86d4f7d13b62a62/giter.lua
+: 1663693915:0;nvim .gits/personal/4583a041bd77656cc86d4f7d13b62a62/giter.lua
+: 1663693932:0;ranger
+: 1663693941:0;.gits/personal/4583a041bd77656cc86d4f7d13b62a62/giter.lua
+: 1663694014:0;git config --local status.showUntrackedFiles no
+: 1663694016:0;lazygit
+: 1663694027:0;nvim .
+: 1663694047:0;lazygit
+: 1663694116:0;gs
+: 1663694132:0;make git-subm-init
+: 1663694141:0;gs
+: 1663694148:0;lsblk -f
+: 1663694185:0;cd .gits/personal/moohs/dotf/configs/dwm/dwm-flex
+: 1663694187:0;nvim .
+: 1663694250:0;sudo make install clean
+: 1663694256:0;..
+: 1663694259:0;cd dmenu
+: 1663694263:0;cd dmenu-flexipatch
+: 1663694266:0;sudo make install clean
+: 1663694269:0;..
+: 1663694276:0;cd st/st-flexipatch
+: 1663694279:0;sudo make install clean
+: 1663694283:0;..
+: 1663694285:0;cd dwm
+: 1663694291:0;cd dwmblocks-async
+: 1663694293:0;sudo make install clean
+: 1663694297:0;..
+: 1663694299:0;lsa
+: 1663694319:0;exit
+: 1663694325:0;startx
+: 1663694335:0;exit
+: 1663694605:0;startx
+: 1663694624:0;make install-yays
+: 1663694629:0;export PKGS=$HOME/.pkgs
+: 1663694630:0;make install-yays
+: 1663694642:0;nmtui
+: 1663694709:0;sudo nmtui
+: 1663694721:0;make install-yays
+: 1663694740:0;sudo nmtui
+: 1663694799:0;nvim .
+: 1663694832:0;sudo make install clean
+: 1663694840:0;kill 1714
+: 1663694846:0;dwmblocks &
+: 1663694856:0;exit
+: 1663694892:0;wctl
+: 1663694894:0;iwctl
+: 1663694982:0;systemctl status NetworkManager
+: 1663694990:0;systemctl restart NetworkManager
+: 1663694995:0;sudo systemctl restart NetworkManager
+: 1663695042:0;sudo nmcli radio wifi off
+: 1663695046:0;sudo nmcli radio wifi on
+: 1663695066:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1663695231:0;iwctl station wlan0 show
+: 1663695255:0;ip route
+: 1663695265:0;dhcpcp
+: 1663695272:0;iwctl
+: 1663695303:0;lsa
+: 1663695310:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1663695469:0;nvim .
+: 1663695485:0;make install-yays
+: 1663695536:0;yay -Ss meslo
+: 1663695554:0;yay -S ttf-meslo-nerd-font-powerlevel10k
+: 1663695585:0;nvim .
+: 1663695611:0;sudo pacman -Syu
+: 1663695632:0;sudo pacman -S python3-pynvim
+: 1663695639:0;sudo pacman -S pynvim
+: 1663695644:0;pip install pynvim
+: 1663695654:0;nvim .
+: 1663695661:0;nvim
+: 1663695748:0;sudo pacman -S brightnessctl
+: 1663695795:0;sudo pacman -S nitrogen xournalpp neovide
+: 1663696078:0;ranger
+: 1663696094:0;sudo pacman -Ss gnome-pi
+: 1663696100:0;sudo pacman -S gnome-pi
+: 1663696105:0;sudo pacman -S gnome-pie
+: 1663696122:0;gnome-pie
+: 1663696400:0;gnome-pie --help
+: 1663696799:0;giter a
+: 1663696807:0;ranger
+: 1663696839:0;.gits/personal/4583a041bd77656cc86d4f7d13b62a62/giter.lua a
+: 1663696842:0;srcall
+: 1663696846:0;giter
+: 1663696862:0;nvim .gits/personal/4583a041bd77656cc86d4f7d13b62a62/giter.lua a
+: 1663696911:0;.gits/personal/4583a041bd77656cc86d4f7d13b62a62/giter.lua a
+: 1663696916:0;srcall
+: 1663696919:0;giter a
+: 1663696970:0;giter
+: 1663696997:0;sudo pacman -S fzf
+: 1663697032:0;sudo pacman -S acpi
+: 1663697036:0;sudo pacman -Ss tacpi
+: 1663697040:0;sudo pacman -Ss think
+: 1663697069:0;sudo pacman -S tp_smapi
+: 1663697233:0;yay -S batsignal
+: 1663697368:0;sudo pacman -S ncdu
+: 1663702253:0;uname -a
+: 1663702317:0;lsa /
+: 1663702484:0;sudo dd if=/dev/zero of=/swap bs=1M count=10240 status=progress
+: 1663702507:0;lsa /
+: 1663702555:0;sudo chmod 0600 /swap
+: 1663702571:0;sdo mkswap -U clear /swap
+: 1663702577:0;sudo mkswap -U clear /swap
+: 1663702665:0;sudo swapon /swap
+: 1663702677:0;cat /etc/fstab
+: 1663702708:0;cp /etc/fstab /etc/fstab.backup
+: 1663702711:0;sudo cp /etc/fstab /etc/fstab.backup
+: 1663702724:0;sudo nvim /etc/fstab
+: 1663702815:0;sudo filefrag -v /swap
+: 1663702832:0;sudo findmnt -no UUID -T /swapfile
+: 1663702836:0;sudo findmnt -no UUID -T /swap
+: 1663702856:0;sudo filefrag -v /swapfile | awk '$1=="0:" {print substr($4, 1, length($4)-2)}'
+: 1663702863:0;sudo filefrag -v /swap | awk '$1=="0:" {print substr($4, 1, length($4)-2)}'
+: 1663702890:0;sudo nvim /etc/mkinitcpio.d/linux.preset
+: 1663702960:0;sudo cp /etc/mkinitcpio.conf /etc/mkinitcpio-fallback.conf
+: 1663702969:0;sudo nvim /etc/mkinitcpio.conf
+: 1663703005:0;sudo nvim /etc/default/grub
+: 1663703142:0;cat /sys/power/resume_offset
+: 1663703149:0;echo 33447936 | sudo tee /sys/power/resume_offset
+: 1663703153:0;cat /sys/power/resume_offset
+: 1663703162:0;mkinitcpio -P
+: 1663703171:0;sudo mkinitcpio -P
+: 1663703269:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1663703336:0;sudo pacman -Ss grub-customizer
+: 1663703342:0;sudo pacman -S grub-customizer
+: 1663703468:0;grub-customizer
+: 1663703489:0;sudo pacman -S xorg-xhost hwinfo
+: 1663703544:0;grub-customizer
+: 1663703558:0;pacsi
+: 1663703597:0;grub-customizer
+: 1663703610:0;yay -Ss pkexec
+: 1663703634:0;yay -S xsudo-git
+: 1663703653:0;grub-customizer
+: 1663703672:0;sudo grub-customizer
+: 1663704255:0;sudo nvim /etc/grub.d
+: 1663704479:0;cat /etc/grub.d/*
+: 1663704613:0;lsa /etc/grub.d
+: 1663704714:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1663705041:0;sysctl vm.swappiness
+: 1663705085:0;sudo nvim /etc/sysctl.d/99-swappiness.conf
+: 1663705157:0;swapon --show
+: 1663705691:0;pacsi
+: 1663705746:0;sudo systemctl enable acpid.service
+: 1663705753:0;sudo systemctl start acpid.service
+: 1663705972:0;lsa /etc/acpi/events
+: 1663706024:0;cat /etc/acpi/events/anything
+: 1663706041:0;lsa ./..
+: 1663706050:0;lsa /etc/acpi
+: 1663706054:0;cat /etc/acpi
+: 1663706057:0;cat /etc/acpi/handler.sh
+: 1663706119:0;sudo pacman -S tlp
+: 1663706127:0;pacsi
+: 1663706372:0;yay -S sysz
+: 1663706413:0;sysz
+: 1663706467:0;yay -S slimbookbattery
+: 1663706633:0;yay -Rs slimbookbattery
+: 1663706648:0;yay -S tlpui
+: 1663706675:0;tlpui
+: 1663706777:0;tlp-stat
+: 1663706780:0;sudo tlp-stat
+: 1663706957:0;sudo tlp-stat -b
+: 1663707199:0;pacsi
+: 1663707214:0;sysz
+: 1663707290:0;sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket
+: 1663707323:0;tlp-stat -b
+: 1663707327:0;sudo tlp-stat -b
+: 1663707499:0;pacsi
+: 1663707511:0;yay -Ss thinkpad
+: 1663707527:0;yay -S thinkgui
+: 1663707568:0;yay -Ss thinkgui
+: 1663707608:0;echo 80 > /sys/devices/platform/smapi/BAT0/stop_charge_thresh
+: 1663707669:0;pacsi
+: 1663707726:0;lspci -k
+: 1663707746:0;ip link
+: 1663707773:0;dmesg | grep firmware
+: 1663707778:0;sudo dmesg | grep firmware
+: 1663707973:0;update
+: 1663708039:0;startx
+: 1663708067:0;swapon --show
+: 1663708297:0;sudo mount -a
+: 1663708301:0;lsblk -f
+: 1663708310:0;pacsi
+: 1663708337:0;yay -Ss hibernator
+: 1663708343:0;yay -S hibernator
+: 1663708685:0;git clone https://github.com/Chrysostomus/hibernator ~/.gits/other/hibernator
+: 1663708739:0;cd .gits/other/hibernator
+: 1663708740:0;lsa
+: 1663708799:0;nvim hibernator
+: 1663708931:0;./hibernator
+: 1663708975:0;sudo ./hibernator
+: 1663708990:0;su
+: 1663709022:0;lsa
+: 1663709029:0;chmod +x hibernator
+: 1663709033:0;./hibernator
+: 1663709037:0;sudo ./hibernator
+: 1663709072:0;pacsi
+: 1663709093:0;yay -Ss update-grub
+: 1663709100:0;yay -S update-grub
+: 1663709111:0;sudo ./hibernator
+: 1663709217:0;jctl
+: 1663709238:0;startx
+: 1663709253:0;jctl
+: 1663709623:0;modprobe tc_smapi
+: 1663709630:0;pacsi
+: 1663709644:0;sysz
+: 1663709797:0;systemctl restart tlp
+: 1663709828:0;pacsi
+: 1663709874:0;sudo pacman -R tp_smapi
+: 1663709890:0;sudo systemctl hibernate
+: 1663709983:0;lsblk -f
+: 1663709986:0;swapon --show
+: 1663709993:0;amixer
+: 1663709997:0;pacsi
+: 1663710096:0;yay -Ss helvum
+: 1663710111:0;yay -S helvum
+: 1663710121:0;helvum
+: 1663710140:0;yay -Rs helvum
+: 1663710168:0;pacsi
+: 1663710198:0;sysz
+: 1663710223:0;pactl info
+: 1663710477:0;pacsi
+: 1663710666:0;nvim .
+: 1663710689:0;pacsi
+: 1663710702:0;pulsemixer
+: 1663710746:0;nvim .config/sxhkd/sxhkdrc
+: 1663710830:0;pulsemixer --help
+: 1663710842:0;pulsemixer --list-sinks
+: 1663710851:0;nvim .config/sxhkd/sxhkdrc
+: 1663710888:0;pulsemixer --list-source
+: 1663710903:0;nvim .config/sxhkd/sxhkdrc
+: 1663710955:0;sb-volume
+: 1663710972:0;nvim .local/bin/sb-volume
+: 1663711003:0;pulsemixer --help
+: 1663711290:0;pulsemixer --list-sinks
+: 1663711372:0;pulsemixer --id sink-56 --get-volume
+: 1663711406:0;sudo pacman -S pamixer
+: 1663711412:0;pamixer
+: 1663711416:0;pamixer --help
+: 1663711714:0;pulsemixer --list-source
+: 1663712018:0;lazygit
+: 1663712148:0;gs
+: 1663712151:0;ranger
+: 1663712626:0;neofetch#
+: 1663712627:0;neofetch
+: 1663712636:0;pacman -Qn | wc -l
+: 1663712683:0;pacman -Qn > .pkgs/pacmans
+: 1663712685:0;lazygit
+: 1663712771:0;make install-pacmans
+: 1663712778:0;nvim .
+: 1663712820:0;srcall
+: 1663712822:0;make install-pacmans
+: 1663712900:0;pacman -Qnq
+: 1663712909:0;pacman -Qnq > .pkgs/pacmans
+: 1663712927:0;pacman -Qnq | wc -l
+: 1663712933:0;pacman -Qn | wc -l
+: 1663712940:0;pacman -Qqem | wc -l
+: 1663712943:0;pacman -Qqem
+: 1663712965:0;pacman -Qqem > .pkgs/yays
+: 1663712987:0;git add .pkgs/*
+: 1663712989:0;gs
+: 1663712996:0;nvim .
+: 1663713140:0;git commit --help
+: 1663713150:0;sudo pacman -S man most
+: 1663713157:0;git commit --help
+: 1663713256:0;gs
+: 1663713261:0;lazygit
+: 1663713292:0;make backup-pkgs
+: 1663713296:0;gs
+: 1663713300:0;lsa
+: 1663713305:0;lsa .pk
+: 1663713308:0;lsa .pkgs
+: 1663713320:0;gs
+: 1663713335:0;git commit .pkgs/* -m "updated packages"
+: 1663713340:0;gs
+: 1663713354:0;git add .pkgs/pythons 
+: 1663713357:0;gs
+: 1663713361:0;git commit .pkgs/* -m "updated packages"
+: 1663713385:0;nvim Makefile
+: 1663713396:0;lazygit
+: 1663713410:0;srcall
+: 1663713415:0;nvim Makefile
+: 1663713614:0;giter
+: 1663713635:0;ranger
+: 1663713680:0;lazygit
+: 1663713708:0;git rm .local/share/ranger/bookmarks
+: 1663713722:0;git rm --cached .local/share/ranger/bookmarks
+: 1663713725:0;lazygit
+: 1663713771:0;update && reboot
+: 1663741011:0;startx
+: 1663741083:0;pacsi
+: 1663741116:0;yay -Ss colorgrab
+: 1663741122:0;yay -S colorgrab
+: 1663741188:0;colorgrab
+: 1663741259:0;yay -Rs colorgrab
+: 1663741273:0;pywall Downloads/wallhaven-9mjoy1_1920x1080.png
+: 1663741279:0;pacsi
+: 1663741291:0;man pywal
+: 1663741293:0;man pywall
+: 1663741297:0;pywall
+: 1663741299:0;pywal
+: 1663741309:0;sudo systemctl hibernate
+: 1663744625:0;neovide
+: 1663744812:0;nvim .
+: 1663745506:0;cd settings
+: 1663745509:0;lsa
+: 1663745513:0;gcc --help
+: 1663745530:0;gcc -E config.def.h
+: 1663745539:0;gcc -E config.def.h > config.h
+: 1663746138:0;wal --help
+: 1663746177:0;cd
+: 1663746179:0;cd Downloads
+: 1663746181:0;ranger
+: 1663746195:0;..
+: 1663746198:0;cd sxiv-flexipatch
+: 1663746200:0;sudo make install clean
+: 1663746207:0;-
+: 1663746212:0;cd dwm-flexipatch
+: 1663746214:0;lsa
+: 1663746351:0;sudo systemctl hibernate
+: 1663753701:0;jctl
+: 1663753903:0;lsa
+: 1663753930:0;wal wallhaven-9mjoy1_1920x1080.png
+: 1663753935:0;wal -i wallhaven-9mjoy1_1920x1080.png
+: 1663753952:0;cd
+: 1663753953:0;lsa
+: 1663753971:0;xrdb --query
+: 1663753974:0;xrdb -query
+: 1663754080:0;lsa
+: 1663754219:0;lazygit
+: 1663754273:0;nvim .
+: 1663754320:0;cat .config/nitrogen/bg-saved.cfg
+: 1663754388:0;update_xres
+: 1663754507:0;cd .gits/personal/other/wiki
+: 1663754509:0;nvim .
+: 1663754844:0;pulsemixer --list-source
+: 1663754881:0;pulsemixer --list-sinks
+: 1663755119:0;sudo nmcli radio wifi off
+: 1663755124:0;sudo nmcli radio wifi on
+: 1663755245:0;nvim .
+: 1663755709:0;sudo systemctl hibernate
+: 1663756921:0;nvim .
+: 1663759207:0;sudo systemctl hibernate
+: 1663821656:0;sudo nmcli
+: 1663821685:0;arp -a
+: 1663821691:0;ifconfig
+: 1663821694:0;ipconfig
+: 1663821715:0;sudo nmcli radio wifi off
+: 1663821723:0;sudo nmcli radio wifi on
+: 1663821773:0;pacsi
+: 1663821806:0;lsmod btusb
+: 1663821810:0;sudo lsmod btusb
+: 1663821816:0;lsmod --help
+: 1663821822:0;man lsmod
+: 1663821832:0;lsmod 
+: 1663821842:0;lsmod | grep "btusb"
+: 1663821847:0;sysz
+: 1663822310:0;la
+: 1663822315:0;pacsi
+: 1663823254:0;sudo nmcli radio wifi off
+: 1663823261:0;sudo systemctl hibernate
+: 1663829851:0;sudo nmcli --ask devive wlan0 connect HaemaSpender
+: 1663829861:0;sudo nmcli --ask device wlan0 connect HaemaSpender
+: 1663829866:0;sudo nmcli --ask device wifi connect HaemaSpender
+: 1663829874:0;sudo nmcli
+: 1663829881:0;nmcli device wifi list
+: 1663829982:0;sudo nmcli radio wifi off
+: 1663829985:0;sudo nmcli radio wifi on
+: 1663829987:0;nmcli device wifi list
+: 1663830020:0;nmcli device wifi connect Haema-Spender
+: 1663830026:0;nmcli --ask device wifi connect Haema-Spender
+: 1663830446:0;sudo nmcli --ask device wifi connect Haema-Spender
+: 1663833133:0;sudo nmcli radio wifi off
+: 1663833159:0;sudo systemctl hibernate
+: 1663835009:0;lsa
+: 1663835012:0;lazygit
+: 1663835053:0;nvim .
+: 1663835081:0;lazygit
+: 1663835250:0;make git-subm-init
+: 1663835266:0;git submodule update
+: 1663835271:0;lazygit
+: 1663835283:0;nvim .
+: 1663835355:0;nvim .v
+: 1663835360:0;nvim -v
+: 1663835379:0;nvim Makefile
+: 1663835487:0;make install-yay
+: 1663835624:0;fg
+: 1663835857:0;sudo systemctl hibernate
+: 1663843210:0;nvim .
+: 1663845702:0;sudo systemctl hibernate
+: 1663847701:0;nvim
+: 1663853046:0;sudo systemctl hibernate
+: 1663864039:0;sudo nmcli radio wifi on
+: 1663864066:0;sudo nmtui
+: 1663864101:0;sudo nmcli
+: 1663864230:0;sudo nmtui
+: 1663864343:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1663864452:0;man nmcli
+: 1663864480:0;man nmcli-examples
+: 1663865442:0;sudo nmcli device wifi connect FRITZ\!Box\ neu password Sandra&Andre&16081996
+: 1663865457:0;sudo nmcli device wifi connect FRITZ\!Box\ neu password Sandra\&Andre\&16081996
+: 1663865724:0;sudo nmcli
+: 1663865733:0;sudo nmcli radio
+: 1663865754:0;sudo nmcli radio all off
+: 1663865757:0;sudo nmcli radio
+: 1663865795:0;sudo nmtui
+: 1663865808:0;sudo nmcli radio all on
+: 1663865811:0;sudo nmcli radio
+: 1663865821:0;sudo nmtui
+: 1663865865:0;Morus und Machiacsi
+: 1663865876:0;Morus und Machia
+: 1663865880:0;pacsi
+: 1663865935:0;networkctl
+: 1663866075:0;pacsi
+: 1663866113:0;gource --help
+: 1663866146:0;gource .
+: 1663866260:0;gource .config/nvim
+: 1663866338:0;ranger
+: 1663866404:0;gource .gits/personal/moohs/dotf
+: 1663872590:0;sudo systemctl hibernate
+: 1663912224:0;nvim Makefile
+: 1663912303:0;lsa .local/src/oh-my-zsh/plugins/
+: 1663912337:0;make git-subm-init
+: 1663912361:0;ranger
+: 1663912486:0;echo moin
+: 1663912548:0;sudo systemctl hibernate
+: 1663915898:0;lsa
+: 1663915901:0;./giter.lua
+: 1663915814:386;nvim .
+: 1663916202:0;nvim .
+: 1663916207:0;nvim
+: 1663917524:0;cd
+: 1663917574:0;cd .gits/personal/nvim-plugs/jaw.nvim
+: 1663917576:0;lsa
+: 1663917588:0;cd wn
+: 1663917589:0;lsa
+: 1663917747:0;nvi
+: 1663917748:0;nvim
+: 1663918222:0;ranger
+: 1663918253:0;nvim
+: 1663918357:0;pacsi
+: 1663918390:0;sudo pacman -R nodejs
+: 1663918396:0;sudo pacman -Rs nodejs
+: 1663918408:0;pacman -h
+: 1663918414:0;pacman -Sh
+: 1663918482:0;sudo pacman -S nodejs-17
+: 1663918486:0;sudo pacman -Ss nodejs
+: 1663918537:0;sudo systemctl hibernate
+: 1663920514:0;pacsi
+: 1663920723:0;cd .gits/personal/moohs
+: 1663920724:0;lsa
+: 1663920726:0;cd sxiv-flexipatch
+: 1663920729:0;sudo make install clean
+: 1663920747:0;pacsi
+: 1663920817:0;sudo make install clean
+: 1663920823:0;pacsi
+: 1663920845:0;sudo make install clean
+: 1663920953:0;cd
+: 1663920954:0;nvim
+: 1663921092:0;nvim .
+: 1663921172:0;sudo make install clean
+: 1663921178:0;sxiv
+: 1663921200:0;..
+: 1663921201:0;cd xmenu
+: 1663921204:0;sudo make install clean
+: 1663921273:0;cd
+: 1663921276:0;cd Downloads
+: 1663921283:0;sxiv WhatsApp\ Image\ 2022-09-23\ at\ 10.05.24.jpeg
+: 1663921438:0;pacsi
+: 1663921655:0;nvim
+: 1663922444:0;gource .gits/personal/moohs/dotf
+: 1663922584:0;gource .gits/other/neovim
+: 1663922750:0;gource --help
+: 1663922791:0;gource -c 2.5 .gits/other/neovim
+: 1663922859:0;gource -c 5.5 .gits/other/neovim
+: 1663922867:0;gource -c 4 .gits/other/neovim
+: 1663923110:0;gource --help
+: 1663923219:0;gource -c 4 -a 1 -s 5 .gits/other/neovim
+: 1663923319:0;gource -c 4 -a 1 -s 3 .gits/other/neovim
+: 1663923350:0;gource -c 4 -a 1 -s 2 .gits/other/neovim
+: 1663923494:0;sxiv Downloads/WhatsApp\ Image\ 2022-09-23\ at\ 10.05.24.jpeg
+: 1663925058:0;nm-applet
+: 1663925067:0;blueberry-tray
+: 1663925248:0;sudo systemctl hibernate
+: 1663935883:0;cd .gits/other
+: 1663935887:0;git clone https://github.com/nodejs/node.git
+: 1663935994:0;pacsi
+: 1663936017:0;yay -S minecraft-launcher
+: 1663937182:0;pacsi
+: 1663937263:0;cd
+: 1663937264:0;cd Downloads
+: 1663937273:0;java -e OptiFine_1.19.2_HD_U_H9.jar
+: 1663937281:0;srcall
+: 1663937296:0;java --help
+: 1663937313:0;java -jar OptiFine_1.19.2_HD_U_H9.jar
+: 1663937331:0;ranger
+: 1663972731:0;brightnessctl -s 10
+: 1663972738:0;brightnessctl -s 20-
+: 1663972750:0;sudo brightnessctl -s 20-
+: 1663972821:0;startx
+: 1663975867:0;pacsi
+: 1663976422:0;am
+: 1663976427:0;make backup-pkgs
+: 1663976435:0;lazygit
+: 1663976643:0;make git-subm-update-local
+: 1663976644:0;lazygit
+: 1663976744:0;make git-subm-update-local
+: 1663976748:0;lazygit
+: 1664094829:0;startx
+: 1664111902:0;screen-rotate inverted
+: 1664111906:0;pacsi
+: 1664111928:0;screen-rotate inverted
+: 1664111974:0;startx
+: 1664112005:0;pacsi
+: 1664112090:0;startx
+: 1664142792:0;update
+: 1664142846:0;sudo nvim /etc/pacman.conf
+: 1664171261:0;startx
+: 1664171278:0;lsa
+: 1664171281:0;lazygit
+: 1664171284:0;gs
+: 1664171290:0;gs -u
+: 1664171310:0;lsa
+: 1664171316:0;nvim .gitignore
+: 1664171330:0;gs -u
+: 1664171341:0;nvim .gitignore
+: 1664171350:0;gs -u
+: 1664171774:0;lazygit
+: 1664171850:0;gs -u
+: 1664172346:0;make git-subm-init
+: 1664172428:0;git submodule --help
+: 1664172450:0;git submodule init --help
+: 1664172625:0;nvim
+: 1664172990:0;make git-subm-update-local
+: 1664172993:0;lsa
+: 1664172995:0;lazygit
+: 1664173388:0;nvim
+: 1664182429:0;curl cht.sh/go/reverse+a+list
+: 1664182443:0;curl cht.sh/c/linked+list
+: 1664182481:0;curl cht.sh/pascal/number+to+int
+: 1664182510:0;curl cht.sh/pascal/number+to+str
+: 1664182580:0;nvim .gitignore
+: 1664182675:0;make git-subm-update-local
+: 1664182678:0;lazygit
+: 1664220956:0;sudo nmcli radio all off
+: 1664220975:0;sudo mount /dev/sda1
+: 1664220985:0;sudo mount /dev/sda1 /mnt
+: 1664221135:0;lsblk -f
+: 1664221142:0;sudo mount /dev/sdb1 /mnt
+: 1664221186:0;sudo umount /mnt
+: 1664225673:0;update
+: 1664251283:0;startx
+: 1664251686:0;ranger
+: 1664252189:0;lazygit --help
+: 1664252244:0;lazygit --path ~/.gits/personal/other/Jxstxs
+: 1664252306:0;pwd
+: 1664252308:0;lsa
+: 1664252558:0;ranger
+: 1664253783:0;lazygit --help
+: 1664253810:0;ranger
+: 1664253941:0;cd
+: 1664253945:0;which ranger
+: 1664253952:0;fd
+: 1664253959:0;ranger
+: 1664254161:0;pacman -help
+: 1664254170:0;pacman -F ranger
+: 1664254184:0;pacman -Fh
+: 1664254224:0;pacman -Fy
+: 1664254228:0;sudo pacman -Fy
+: 1664254253:0;pacman -Fl ranger
+: 1664254284:0;cd /usr/lib/python3.10/site-packages/ranger
+: 1664254290:0;nvim .
+: 1664254457:0;ranger
+: 1664258117:0;nvim
+: 1664258138:0;nvim .
+: 1664258257:0;pwd
+: 1664258261:0;nvim
+: 1664266278:0;pacsi
+: 1664266297:0;yay -Ss touchegg
+: 1664266330:0;yay -S touchegg touchegg-gce-git
+: 1664266481:0;sysz
+: 1664266584:0;pacsi
+: 1664266672:0;cd .gits/personal/moohs/dotf/configs/dwm/dwm-flex
+: 1664266675:0;nvim .
+: 1664266746:0;dwm-msg
+: 1664266754:0;dwm-msg shiftview 1
+: 1664266758:0;dwm-msg shiftview
+: 1664266920:0;dwm-msg help
+: 1664266953:0;dwm-msg run_command shiftview 1
+: 1664266958:0;dwm-msg run_command shiftview -1
+: 1664267106:0;sysz
+: 1664267370:0;pwd
+: 1664267371:0;nvim
+: 1664267623:0;yay -Ss touche
+: 1664267644:0;yay -S touche
+: 1664267889:0;cd
+: 1664267914:0;cd .config/touchegg/.
+: 1664267916:0;lsa
+: 1664267924:0;rm -rf ./*
+: 1664267972:0;sysz
+: 1664268054:0;startx
+: 1664268181:0;nvim .
+: 1664268643:0;input
+: 1664268646:0;libinput
+: 1664268658:0;libinput list-devices
+: 1664268662:0;sudo libinput list-devices
+: 1664268698:0;libinput
+: 1664268705:0;sudo libinput record
+: 1664268848:0;xprop --help
+: 1664268913:0;xprop -root
+: 1664268917:0;xprop
+: 1664269094:0;nvim tmp
+: 1664269272:0;sysz
+: 1664270419:0;hwinfo --mouse
+: 1664272207:0;pacsi
+: 1664272220:0;yay -Ss onlyoffice
+: 1664272230:0;yay -S onlyoffice-bin
+: 1664280672:0;xrandr
+: 1664280678:0;xrandr --help
+: 1664280694:0;xrandr --output HDMI-A-0 --auto
+: 1664339209:0;update
+: 1664344751:0;startx
+: 1664344893:0;cd .gits/personal/other
+: 1664344926:0;git clone https://gitlab.com/Jxstxs/qmk-crkbd-config
+: 1664344939:0;lsa
+: 1664344942:0;cd qmk-crkbd-config
+: 1664344944:0;lsa
+: 1664345007:0;git remote add origingh https://github.com/Jxstxs/qmk-crkbd-config.git
+: 1664345009:0;lazygit
+: 1664345025:0;git push --set-upstream origingh
+: 1664345049:0;nvim .
+: 1664345352:0;..
+: 1664345358:0;cd other
+: 1664345363:0;git clone https://github.com/qmk/qmk_firmware
+: 1664345872:0;pacsi
+: 1664345987:0;qmk setup
+: 1664346005:0;qmk setup --help
+: 1664346028:0;qmk setup -H ~/.gits/other/qmk
+: 1664346651:0;sudo cp /home/julius/.gits/other/qmk/util/udev/50-qmk.rules /etc/udev/rules.d/
+: 1664346659:0;qmk --help
+: 1664346717:0;qmk doctor
+: 1664346780:0;qmk env
+: 1664346793:0;cd qmk
+: 1664346797:0;llsa
+: 1664346798:0;lsa
+: 1664346801:0;nvim 
+: 1664347115:0;ranger
+: 1664347234:0;make crkbd/r2g:mb_via
+: 1664347238:0;..
+: 1664347242:0;make crkbd/r2g:mb_via
+: 1664347286:0;lsa
+: 1664347298:0;lsa .build
+: 1664347343:0;make crkbd/rev1:default
+: 1664347371:0;lsa .build
+: 1664347528:0;qmk list-keyboards
+: 1664347538:0;qmk list-keyboards | grep crkbd
+: 1664347567:0;qmk config user.keyboard=crkbd/rev1
+: 1664347597:0;qmk new-keymap
+: 1664347629:0;qmk compile -km lenoxl
+: 1664347804:0;rm -rf keyboards/crkbd/keymaps/lenoxl
+: 1664347845:0;ln -sf /home/julius/.gits/personal/other/qmk-crkbd-config /home/julius/.gits/other/qmk/keyboards/crkbd/keymaps/lenoxl
+: 1664347851:0;qmk compile -km lenoxl
+: 1664347879:0;..
+: 1664347885:0;cd personal/other/qmk-crkbd-config
+: 1664347890:0;nvim .
+: 1664347911:0;qmk compile -km lenoxl
+: 1664347928:0;cat Makefile
+: 1664347943:0;make clean
+: 1664347958:0;qmk compile -km lenoxl
+: 1664348322:0;nvim .
+: 1664348645:0;qmk compile -km lenoxl
+: 1664348674:0;nvim .
+: 1664348687:0;qmk compile -km lenoxl
+: 1664348745:0;lsa .build
+: 1664352451:0;lsblk -f
+: 1664352488:0;sudo mount /dev/sba1 /mnt
+: 1664352541:0;sudo mount /dev/sa1 /mnt
+: 1664352544:0;sudo mount /dev/sda1 /mnt
+: 1664352734:0;cd /mnt
+: 1664352735:0;lsa
+: 1664352739:0;cd camunda-modeler-4.8.1-win-x64
+: 1664352740:0;lsa
+: 1664352744:0;..
+: 1664352746:0;pacsi
+: 1664352766:0;yay -Ss camunda
+: 1664352784:0;yay -S camunda-modeler
+: 1664352943:0;sudo umount /mnt
+: 1664352945:0;cd
+: 1664352946:0;sudo umount /mnt
+: 1664352950:0;lsblk f
+: 1664352953:0;lsblk -f
+: 1664358391:0;cd
+: 1664358392:0;nvim
+: 1664374735:0;lazygit
+: 1664374767:0;cd .gits/personal/nvim-plugs/jaw.nvim
+: 1664374769:0;lsa
+: 1664374773:0;nvim .
+: 1664374985:0;nvim
+: 1664375073:0;nvim wn
+: 1664375190:0;nvim
+: 1664375231:0;echo $GITD
+: 1664375310:0;nvim
+: 1664375461:0;nvim wn
+: 1664375621:0;nivm
+: 1664375622:0;nvim
+: 1664375673:0;nvim wn
+: 1664376094:0;nvim wn/lua/jaw/wiki.lua
+: 1664376958:0;nvim
+: 1664377660:0;nvim ti/lua/jaw/todo.lua
+: 1664453982:0;nvim
+: 1664533900:0;lsa
+: 1664533906:0;qmk compile -km lenoxl
+: 1664533920:0;nvim
+: 1664533954:0;qmk compile -km lenoxl
+: 1664534282:0;qmk flash -km lenoxl
+: 1664537765:0;startx
+: 1664537809:0;cd .gits/personal/nvim-plugs/jaw.nvim/
+: 1664537817:0;..
+: 1664537821:0;cd other/wiki
+: 1664537822:0;lsa
+: 1664537825:0;lazygit
+: 1664538097:0;startx
+: 1664540294:0;sudo nmcli device wifi connect FRITZ\!Box\ neu password Sandra\&Andre\&16081996
+: 1664540337:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1664540396:0;sysz
+: 1664552933:0;startx
+: 1664552948:0;sudo nmcli connection delete FRITZ\!Box\ neu
+: 1664552961:0;sudo nmcli connection delete Xperia
+: 1664552968:0;sudo nmcli connection list
+: 1664552976:0;sudo nmcli connection show
+: 1664553012:0;nvim
+: 1664553218:0;update
+: 1664557807:0;sartx
+: 1664557809:0;startx
+: 1664557820:0;nvim
+: 1664613601:0;docker run -it --rm brandoncc/vim-be-good:stable
+: 1664613603:0;pacsi
+: 1664613624:0;docker run -it --rm brandoncc/vim-be-good:stable
+: 1664613634:0;sysz
+: 1664613667:0;docker run -it --rm brandoncc/vim-be-good:stable
+: 1664613671:0;sudo docker run -it --rm brandoncc/vim-be-good:stable
+: 1664623880:0;nvim
+: 1664627864:0;update && shutdown now
+: 1664633763:0;startx
+: 1664633818:0;pacsi
+: 1664633920:0;sudo nmcli connection delete FRITZ\!Box\ neu
+: 1664634019:0;startx
+: 1664634080:0;sudo nmcli connection delete FRITZ\!Box\ neu
+: 1664634102:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1664634163:0;sudo nmcli device wifi connect FRITZ\!Box\ neu password Sandra\&Andre\&16081996
+: 1664634194:0;sudo nmcli connection delete FRITZ\!Box\ neu
+: 1664634297:0;sudo nmcli connection show
+: 1664634314:0;sudo nmcli connection delete Xperia
+: 1664634330:0;sudo nmcli device wifi connect Xperia passwordcockerspaniel2
+: 1664634336:0;sudo nmcli device wifi connect Xperia password cockerspaniel2
+: 1664634386:0;iwctl
+: 1664634470:0;kill 1471
+: 1664634486:0;nmcli device wifi show-password
+: 1664634492:0;nmcli device wifi show-password ifname wlan0
+: 1664634499:0;nmcli device wifi list
+: 1664634553:0;nmcli device wifi connect FRITZ\!Box\ neu password Sandra\&Andre\&16081996
+: 1664634589:0;sudo nmcli connection delete Xperia
+: 1664634599:0;sudo nmcli connection delete docker0
+: 1664634605:0;sudo nmcli connection show
+: 1664634621:0;sudo nmcli connection delete FRITZ\!Box\ neu
+: 1664634625:0;iwctl
+: 1664634652:0;sudo nmcli radio wifi off
+: 1664634659:0;sudo nmcli radio wifi on
+: 1664634670:0;sudo nmcli device connect wlan0
+: 1664634687:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1664634730:0;reboot
+: 1664634759:0;startx
+: 1664634783:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1664634954:0;sudo nvim /etc/NetworkManager/NetworkManager.conf
+: 1664634987:0;sysz
+: 1664635043:0;pacsi
+: 1664635161:0;nvim
+: 1664637022:0;cd Downloads
+: 1664637757:0;nvim
+: 1664638283:0;./clinq-desktop.AppImage
+: 1664638293:0;chmod +x ./clinq-desktop.AppImage
+: 1664638295:0;./clinq-desktop.AppImage
+: 1664638401:0;rm .c
+: 1664638405:0;rm clinq-desktop.AppImage
+: 1664638406:0;lsa
+: 1664638410:0;cd
+: 1664638411:0;lazygit
+: 1664638625:0;nvim
+: 1664638632:0;lazygit
+: 1664711061:0;update
+: 1664735706:0;startx
+: 1664736098:0;nmtui
+: 1664736487:0;kill 3797
+: 1664736490:0;nmtui
+: 1664736720:0;sudo nmcli connection delete Xperia
+: 1664736733:0;sudo nmcli connection show
+: 1664736754:0;kill 19118
+: 1664736756:0;sysz
+: 1664738460:0;nvim
+: 1664753535:0;update
+: 1664788053:0;startx
+: 1664788239:0;lsa
+: 1664788242:0;nvim
+: 1664875294:0;..
+: 1664875298:0;cd moohs/slock-flexipatch
+: 1664875301:0;sudo make install clean
+: 1664878830:0;rg "# "
+: 1664878881:0;rg :asd:
+: 1664878888:0;rg ::
+: 1664878893:0;rg --help
+: 1664879021:0;rg -p :
+: 1664879029:0;rg :
+: 1664879039:0;rg :%a:
+: 1664879042:0;rg :%a*:
+: 1664879049:0;rg ":%a*:"
+: 1664879057:0;rg ":%:"
+: 1664882414:0;startx
+: 1664882533:0;logout
+: 1664882539:0;startx
+: 1664882671:0;nvim
+: 1664913538:0;reboot
+: 1664914304:0;startx
+: 1664916369:0;nvim
+: 1664916424:0;startx
+: 1664916461:0;./.screenlayout/home-julius.sh
+: 1664916690:0;sudo nmcli connection delete Xperia
+: 1664916716:0;sudo nmcli connection show
+: 1664916784:0;sudo nmcli connection delete "Xperia 1"
+: 1664916911:0;sudo nmcli connection delete "FRITZneu"
+: 1664916924:0;sudo nmcli connection delete "FRITZ\!Box neu"
+: 1664916953:0;nvim
+: 1664917035:0;sudo nmcli connection delete "FRITZ\!Box neu"
+: 1664917054:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1664917099:0;sudo nmcli connection show
+: 1664917103:0;sudo nmcli connection delete "FRITZ\!Box neu"
+: 1664917131:0;sudo nmcli device wifi connect FRITZ\!Box\ neu password "Sandra\&Andre\&16081996"
+: 1664917548:0;sudo nmcli device wifi connect FRITZ\!Box\ neu
+: 1664917667:0;cat /etc/NetworkManager/conf.d/
+: 1664917673:0;lsa /etc/NetworkManager/conf.d/
+: 1664917675:0;lsa /etc/NetworkManager/
+: 1664917785:0;iwctl
+: 1664917984:0;startx
+: 1664917996:0;./.screenlayout/home-julius.sh
+: 1664918705:0;startx
+: 1664918713:0;./.screenlayout/home-julius.sh
+: 1664918806:0;sudo nmcli connection delete "FRITZ\!Box neu"
+: 1664918825:0;sudo nmcli --ask device wifi connect FRITZ\!Box\ neu
+: 1664920595:0;startx
+: 1664920670:0;sudo pacman -Ss tp-smapi
+: 1664920677:0;sudo pacman -Ss smapi
+: 1664920690:0;lazygit
+: 1664920795:0;cp .pkgs .pkgs_
+: 1664920799:0;cp -r .pkgs .pkgs_
+: 1664920806:0;make backup-pkgs
+: 1664920815:0;lazygit
+: 1664921108:0;sudo tlpui
+: 1664921481:0;cat /etc/tlp.d/00-template.conf
+: 1664921487:0;cat /etc/tlp.conf
+: 1664921507:0;sysz
+: 1664921658:0;lsa /sys/devices/platform/thinkpad_acpi
+: 1664921677:0;lsa /sys/devices/platform/thinkpad_acpi/driver
+: 1664921687:0;cat /sys/devices/platform/thinkpad_acpi/driver
+: 1664921698:0;lsa /sys/devices/platform/thinkpad_acpi/driver/thinkpad_acpi
+: 1664921702:0;lsa
+: 1664921707:0;lsa /sys/devices/platform/thinkpad_acpi/
+: 1664921721:0;cat /sys/devices/platform/thinkpad_acpi/bluetooth_enable
+: 1664921738:0;cat /sys/devices/platform/thinkpad_acpi/hotkey_tablet_mode
+: 1664921750:0;lsa /sys/devices/platform/thinkpad_acpi/input
+: 1664921758:0;lsa /sys/devices/platform/thinkpad_acpi/input/input7/device
+: 1664921768:0;lsa /sys/devices/platform/thinkpad_acpi/leds
+: 1664921827:0;echo 0 | sudo tee /sys/devices/platform/thinkpad_acpi/leds/tpacpi::power/brightness
+: 1664921841:0;echo 1 | sudo tee /sys/devices/platform/thinkpad_acpi/leds/tpacpi::power/brightness
+: 1664921859:0;echo 0 | sudo tee /sys/devices/platform/thinkpad_acpi/leds/tpacpi::thinkvantage/brightness
+: 1664921871:0;echo 1 | sudo tee /sys/devices/platform/thinkpad_acpi/leds/tpacpi::thinkvantage/brightness
+: 1664921898:0;lsmod | grep "think"
+: 1664950394:0;startx
+: 1664950400:0;sudo tlpui
+: 1664950435:0;sysz
+: 1664950485:0;lsa
+: 1664950486:0;ranger
+: 1664950514:0;lazygit
+: 1664950534:0;nvim
+: 1664972542:0;omz update
+: 1664972547:0;cd
+: 1664972552:0;cd .local/share/nvim
+: 1664972554:0;lsa
+: 1664972931:0;sysz
+: 1664972985:0;reboot
+: 1664973010:0;startx
+: 1664973028:0;sudo tlpui
+: 1664973056:0;sysz
+: 1664973086:0;nvim
+: 1664973164:0;startx
+: 1664973184:0;sudo tlpui
+: 1664973199:0;sysz
+: 1664973244:0;battop
+: 1664973251:0;startx
+: 1664973260:0;sudo tlpui
+: 1664973322:0;cat /etc/tlp.conf
+: 1664973342:0;sudo mv /etc/tlp.conf /etc/tlp.conf_
+: 1664973346:0;sudo tlpui
+: 1664973406:0;lsa /sys/class/power_supply/BAT0/
+: 1664973429:0;cat /sys/class/power_supply/BAT0/charge_start_threshold
+: 1664973433:0;cat /sys/class/power_supply/BAT0/charge_stop_threshold
+: 1664973447:0;cat /sys/class/power_supply/BAT0/energy_now
+: 1664973451:0;cat /sys/class/power_supply/BAT0/energy_full
+: 1664973460:0;cat /sys/class/power_supply/BAT0/charge_behaviour
+: 1664973480:0;cat /sys/class/power_supply/BAT0/power/runtime_status
+: 1664973553:0;lsa /etc/tlp.d
+: 1664973568:0;cat /etc/tlp.d/README
+: 1664973623:0;battop
+: 1664978846:0;startx
+: 1664978860:0;sudo mv /etc/tlp.conf_ /etc/tlp.conf
+: 1664978864:0;sudo tlpui
+: 1664978918:0;sysz
+: 1664978941:0;sysz --help
+: 1664978965:0;ranger
+: 1664978991:0;cd
+: 1664978992:0;nvim
+: 1664979285:0;cd
+: 1664979286:0;nvim
+: 1664979335:0;brightnessctl --help
+: 1664979373:0;sys-tablet
+: 1664979383:0;1423
+: 1664979427:0;sys-tablet
+: 1664979462:0;brightnessctl g
+: 1664979487:0;startx
+: 1664979510:0;pulsemixer
+: 1664979514:0;pulsemixer --help
+: 1664979523:0;pulsemixer --list-sinks
+: 1664979546:0;pulsemixer --list-source
+: 1664979593:0;sys-tablet
+: 1664979920:0;nvim
+: 1664980118:0;git show-tree
+: 1664980126:0;git log --graph
+: 1664980135:0;git status --untracked-files=all
+: 1664980147:0;git add .screenlayout/
+: 1664980299:0;lazygit
+: 1664980414:0;xournalpp --help
+: 1664981582:0;cd
+: 1664981584:0;nvim
+: 1664981747:0;cp .gits/personal/other/schule/Klasse\ 12/Mathe/2021-11-04-wichtig-mittlere-änderungsrate.xopp .stuff/tests/
+: 1664981753:0;mkdir .stuff/tests
+: 1664981754:0;cp .gits/personal/other/schule/Klasse\ 12/Mathe/2021-11-04-wichtig-mittlere-änderungsrate.xopp .stuff/tests/
+: 1664981772:0;xournalpp -p .stuff/tests/2021-11-04-wichtig-mittlere-änderungsrate.xopp
+: 1664981813:0;xournalpp --create-pdf=.stuff/tests/2021-11-04-wichtig-mittlere-änderungsrate.xopp
+: 1664981914:0;xournalpp -p .stuff/tests/dave.pdf .stuff/tests/2021-11-04-wichtig-mittlere-änderungsrate.xopp
+: 1664981932:0;ranger
+: 1664982252:0;chmod +x .local/bin/xopp2pdf
+: 1664982260:0;cp .gits/personal/other/schule/Klasse\ 12/Mathe/2021-11-04-wichtig-mittlere-änderungsrate.xopp .stuff/tests/
+: 1664982268:0;xopp2pdf
+: 1664982682:0;xopp2pdf .stuff/tests/2021-11-04-wichtig-mittlere-änderungsrate.xopp .stuff/tests/dave.pdf
+: 1664983058:0;fd
+: 1664983064:0;fd --help
+: 1664983173:0;echo $schuldir
+: 1664983184:0;echo $klasse
+: 1664983214:0;chmod +x .local/bin/dmenus/d_xopp2pdf
+: 1664983222:0;d_xopp2pdf
+: 1664983256:0;.local/bin/dmenus/d_xopp2pdf
+: 1664983303:0;export schuldir=/home/julius/.gits/personal/other/schule/Klasse\ 13
+: 1664983305:0;.local/bin/dmenus/d_xopp2pdf
+: 1664983317:0;export schuldir=/home/julius/.gits/personal/other/schule/
+: 1664983319:0;.local/bin/dmenus/d_xopp2pdf
+: 1664983352:0;dmenu --help
+: 1664983386:0;.local/bin/dmenus/d_xopp2pdf
+: 1664983471:0;fd -f d "" .
+: 1664983483:0;fd -t d "" .
+: 1664983490:0;lsa
+: 1664983499:0;fd --help
+: 1664983533:0;xopp2pdf .stuff/tests/2021-11-04-wichtig-mittlere-änderungsrate.xopp .stuff/tests/dave.pdf
+: 1664983550:0;cp .gits/personal/other/schule/Klasse\ 12/Mathe/2021-11-04-wichtig-mittlere-änderungsrate.xopp .stuff/tests/
+: 1664983557:0;xopp2pdf .stuff/tests/2021-11-04-wichtig-mittlere-änderungsrate.xopp .stuff/tests/
+: 1664983596:0;xopp2pdf .stuff/tests/2021-11-04-wichtig-mittlere-änderungsrate.xopp .stuff/tests/dave.pdf
+: 1664983954:0;echo "12|23|11" | awk '{split($0,a,"|"); print a[3],a[2],a[1]}'
+: 1664983982:0;echo "/home/julius/dave/ronja.pdf" | awk '{split($0,a,"/"); print a[3],a[2],a[1]}'
+: 1664983998:0;echo "/home/julius/dave/ronja.pdf" | awk '{split($0,a,"/"); print a}'
+: 1664984009:0;echo "/home/julius/dave/ronja.pdf" | awk '{split($0,a,"/"); print a[$NF]}'
+: 1664984120:0;echo "/home/julius/dave/ronja.pdf" | awk -F"/" '{print $NF}'
+: 1664984196:0;.local/bin/dmenus/d_xopp2pdf
+: 1664984858:0;nvim
+: 1664998499:0;startx
+: 1664999054:0;sudo nmcli connection delete "FRITZ\!Box neu"
+: 1664999063:0;sudo nmcli connection delete Xperia
+: 1664999078:0;sudo nmcli device wifi connect Xperia
+                                                   : 1664999237:0;sb-battery
+: 1664999248:0;startx
+: 1664999343:0;nmcli device wifi connect Xperia
+: 1664999613:0;wpa_cli
+: 1664999622:0;wpa_cli --help
+: 1665000097:0;nmtui
+: 1665000226:0;sysz
+: 1665000276:0;nmtui
+: 1665000345:0;sudo nmtui
+: 1665000595:0;lsa
+: 1665000597:0;ranger
+: 1665000609:0;lazygit
+: 1665000641:0;cat /etc/tlp.conf
+: 1665000688:0;lsa
+: 1665000691:0;ranger
+: 1665000800:0;sudo cp /etc/tlp.conf .config/system
+: 1665000810:0;git add .config/system/tlp.conf
+: 1665000812:0;lazygit
+: 1665000825:0;git add .config/system/tlp.conf
+: 1665000826:0;lazygit
+: 1665000862:0;nvim Makefile
+: 1665001123:0;lsblk -g
+: 1665001125:0;lsblk -f
+: 1665001146:0;.local/bin/dmenus/d_xopp2pdf
+: 1665001164:0;make backup
+: 1665001194:0;lazygit
+: 1665001203:0;make backup-tlp
+: 1665001208:0;lazygit
+: 1665001479:0;lsblk -f
+: 1665001490:0;sudo mount /dev/sdb1 /mnt
+: 1665001495:0;lsa /mnt
+: 1665001510:0;mkdir /mnt/dotfiles
+: 1665001514:0;cd
+: 1665001524:0;cp Makefile /mnt/dotfiles
+: 1665001542:0;cp .git-credentials .gitconfig /mnt/dotfiles
+: 1665001547:0;lsa /mnt/dotfiles
+: 1665001833:0;nvim .pkgs
+: 1665002556:0;lsblk -f
+: 1665002571:0;sudo fdisk /dev/sda
+: 1665002633:0;sudo mkfs.ntfs --help
+: 1665002642:0;lsblk -f
+: 1665002654:0;sudo mkfs.ntfs /dev/sda1
+: 1665003544:0;git submodule add https://github.com/Chrysostomus/hibernator ~/.gits/other/hibernator
+: 1665003571:0;..
+: 1665003575:0;rm -rf hibernator
+: 1665003577:0;git submodule add https://github.com/Chrysostomus/hibernator ~/.gits/other/hibernator
+: 1665003620:0;lsblk -f
+: 1665003626:0;sudo umount /mnt
+: 1665003690:0;lsblk -f
+: 1665003850:0;sudo mount /dev/sda1 /mnt
+: 1665003870:0;sudo mkfs.ext4 /dev/sdb1
+: 1665003900:0;mkfs.ext4 --help
+: 1665003964:0;sudo fdisk /dev/sdb
+: 1665004005:0;sudo mkfs.ext4 /dev/sdb1
+: 1665004048:0;lsblk -f
+: 1665004088:0;sudo mount /dev/sdb1 ~/.stuff/asd
+: 1665004103:0;cd
+: 1665004108:0;mkdir .stuff/asd
+: 1665004110:0;sudo mount /dev/sdb1 ~/.stuff/asd
+: 1665004116:0;lsa .stuff/asd
+: 1665004124:0;ranger
+: 1665004185:0;sudo umount .stuff/asd
+: 1665004597:0;lsblk -f
+: 1665004645:0;dd --help
+: 1665004683:0;lsblk -f
+: 1665004715:0;sudo dd if=/mnt/dotfiles/archlinux-2022.10.01-x86_64.iso of=/dev/sdb status=progress
+: 1665005082:0;lsblk -f
+: 1665005101:0;lsblk -f
+: 1665005129:0;sudo umount /mnt
+: 1665005139:0;lsblk -f
+: 1665006535:0;sysz
+: 1665006547:0;mv .zsh_history .zsh_history_

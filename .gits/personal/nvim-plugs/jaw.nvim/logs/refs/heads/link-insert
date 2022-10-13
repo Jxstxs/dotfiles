@@ -1,0 +1,4 @@
+25b042b8d3bae6c141988d93105fddfa04a806f4 489f695c0fcef8228775f4139b0bf9f4044544bc Jxstxs <juleb0202@gmail.com> 1664857933 +0200	commit: feat: added link utils
+489f695c0fcef8228775f4139b0bf9f4044544bc 2bc40fe820cba5c590ec58e3de1a4e0c633aeed1 Jxstxs <juleb0202@gmail.com> 1664857963 +0200	commit: feat: added base structure of linkInsert
+2bc40fe820cba5c590ec58e3de1a4e0c633aeed1 f257cf05a4b59cfadb5cc5224c519093f72d1021 Jxstxs <juleb0202@gmail.com> 1664858010 +0200	commit: feat: added link config
+f257cf05a4b59cfadb5cc5224c519093f72d1021 e0a0524192f637a61619d71d8aa048344f8aee5d Jxstxs <juleb0202@gmail.com> 1664858519 +0200	commit: feat: added select utils (get_path) and some configuration

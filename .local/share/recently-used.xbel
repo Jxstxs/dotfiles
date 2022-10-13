@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/julius/Downloads" added="2022-09-20T17:44:07.012456Z" modified="2022-09-20T17:44:07.012472Z" visited="2022-09-20T17:44:07.012461Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nitrogen" exec="&apos;nitrogen %u&apos;" modified="2022-09-20T17:44:07.012465Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/Downloads/DRV%20Andre%20Reha%202022%20Formular%20G%200512.pdf" added="2022-09-21T14:37:31.330731Z" modified="2022-09-21T14:38:36.752109Z" visited="2022-09-21T14:37:31.330737Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-21T14:38:36.752103Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/Downloads/DRV%20Andre%20Reha%202022%20Formular%20G%200512a.pdf" added="2022-09-21T14:38:51.960845Z" modified="2022-09-21T14:42:30.989226Z" visited="2022-09-21T14:38:51.960849Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-21T14:38:51.960855Z" count="1"/>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2022-09-21T14:42:30.989218Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/Downloads/DRV%20Sandra%20Reha%202022%20Formular%20G%200512.pdf" added="2022-09-21T14:39:06.999877Z" modified="2022-09-21T14:39:07.006790Z" visited="2022-09-21T14:39:06.999881Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-21T14:39:07.006785Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/Downloads/DRV%20Sandra%20Reha%202022%20Formular%20G%200512a.pdf" added="2022-09-21T14:41:26.866847Z" modified="2022-09-21T14:42:38.618142Z" visited="2022-09-21T14:41:26.866851Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-21T14:41:26.866858Z" count="1"/>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2022-09-21T14:42:38.618135Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-09-08-Storastik.xopp" added="2022-09-22T10:38:51.457781Z" modified="2022-09-27T09:53:23.912182Z" visited="2022-09-22T10:38:51.457787Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xopp"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-27T09:53:23.912177Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-09-15-%C3%9Cbung-Storastik-Ausfall.xopp" added="2022-09-22T10:39:19.538598Z" modified="2022-09-22T10:39:19.539578Z" visited="2022-09-22T10:39:19.538602Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xopp"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-22T10:39:19.539572Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-08-29-%C3%9Cbung.xopp" added="2022-09-22T10:39:27.825332Z" modified="2022-09-26T12:47:04.599321Z" visited="2022-09-22T10:39:27.825336Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xoj"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-26T12:47:04.599315Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-09-22-Binominal-Dings" added="2022-09-22T11:21:38.022200Z" modified="2022-09-22T11:21:38.022217Z" visited="2022-09-22T11:21:38.022204Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-22T11:21:38.022209Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-09-22-Binominal-Dings.xopp" added="2022-09-22T11:21:38.525673Z" modified="2022-09-26T12:13:50.066111Z" visited="2022-09-22T11:21:38.525677Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xopp"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-26T12:13:50.066106Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/konzepte/liki.nvim.xopp" added="2022-09-23T07:05:05.545791Z" modified="2022-09-29T07:58:56.446048Z" visited="2022-09-23T07:05:05.545796Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xoj"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-29T07:58:56.446041Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/Downloads/Auftrag%20Herr%20Beier.pdf" added="2022-09-23T14:17:42.117242Z" modified="2022-09-23T14:17:42.127386Z" visited="2022-09-23T14:17:42.117248Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-23T14:17:42.127381Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/Downloads/asd.pdf" added="2022-09-23T14:18:31.980736Z" modified="2022-09-23T14:18:47.687898Z" visited="2022-09-23T14:18:31.980747Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-23T14:18:31.980759Z" count="1"/>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2022-09-23T14:18:47.687891Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-09-26-AB-Liebe-Abwesend" added="2022-09-26T12:45:56.694374Z" modified="2022-09-26T12:45:56.694393Z" visited="2022-09-26T12:45:56.694379Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-26T12:45:56.694384Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-09-26-AB-Liebe-Abwesend.xopp" added="2022-09-26T12:45:57.371583Z" modified="2022-09-29T08:17:47.239460Z" visited="2022-09-26T12:45:57.371588Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xoj"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-29T08:17:47.239454Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.stuff/share/2022-09-26-AB-Liebe-Abwesend" added="2022-09-28T07:54:00.167356Z" modified="2022-09-28T07:54:00.167373Z" visited="2022-09-28T07:54:00.167360Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-28T07:54:00.167365Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.stuff/share/2022-09-26-AB-Liebe-Abwesend.pdf" added="2022-09-28T07:54:49.062798Z" modified="2022-09-28T07:54:49.062814Z" visited="2022-09-28T07:54:49.062802Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2022-09-28T07:54:49.062807Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/wiki/schule/klasse_13/Wirtschaft/2022-09-28-Normenpyramide" added="2022-09-28T12:39:48.211693Z" modified="2022-09-28T12:39:48.211709Z" visited="2022-09-28T12:39:48.211697Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-09-28T12:39:48.211702Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/wiki/schule/klasse_13/Wirtschaft/2022-09-28-Normenpyramide.xopp" added="2022-09-28T12:39:48.655552Z" modified="2022-10-05T10:54:21.424649Z" visited="2022-09-28T12:39:48.655556Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xoj"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-05T10:54:21.424640Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.screenlayout/home-julius" added="2022-10-04T20:46:00.942250Z" modified="2022-10-04T20:46:00.942267Z" visited="2022-10-04T20:46:00.942255Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2022-10-04T20:46:00.942260Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.local/bin/screenlayouts/default" added="2022-10-05T23:03:17.653326Z" modified="2022-10-05T23:03:17.653342Z" visited="2022-10-05T23:03:17.653331Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="arandr" exec="&apos;arandr %u&apos;" modified="2022-10-05T23:03:17.653336Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/Downloads/WhatsApp%20Image%202022-10-06%20at%2012.12.25.jpeg" added="2022-10-06T10:13:01.323536Z" modified="2022-10-06T10:13:01.323554Z" visited="2022-10-06T10:13:01.323541Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-06T10:13:01.323546Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-10-06-Sigma-Regeln" added="2022-10-06T10:14:12.564943Z" modified="2022-10-06T10:14:12.564961Z" visited="2022-10-06T10:14:12.564947Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-06T10:14:12.564952Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-10-06-Sigma-Regeln.xopp" added="2022-10-06T10:14:15.391365Z" modified="2022-10-10T13:24:50.623548Z" visited="2022-10-06T10:14:15.391369Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xoj"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-10T13:24:50.623540Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.stuff/share/2022-10-06-Sigma-Regeln.xopp" added="2022-10-06T15:46:22.057682Z" modified="2022-10-06T15:46:22.057701Z" visited="2022-10-06T15:46:22.057686Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xopp"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2022-10-06T15:46:22.057692Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.stuff/share/2022-10-06-Sigma-Regeln.xopp.pdf" added="2022-10-06T15:51:03.246558Z" modified="2022-10-06T15:51:03.246576Z" visited="2022-10-06T15:51:03.246562Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2022-10-06T15:51:03.246567Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Chemie/2022-10-10-Ester-Bildung" added="2022-10-10T07:09:46.554717Z" modified="2022-10-10T07:09:46.554736Z" visited="2022-10-10T07:09:46.554721Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-10T07:09:46.554728Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Chemie/2022-10-10-Ester-Bildung.xopp" added="2022-10-10T07:09:46.971165Z" modified="2022-10-10T07:09:46.971183Z" visited="2022-10-10T07:09:46.971169Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xoj"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-10T07:09:46.971177Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Chemie/2022-10-10-Propan-Spass" added="2022-10-10T07:30:40.202942Z" modified="2022-10-10T07:30:40.202961Z" visited="2022-10-10T07:30:40.202946Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-10T07:30:40.202952Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Chemie/2022-10-10-Propan-Spass.xopp" added="2022-10-10T07:30:40.713348Z" modified="2022-10-10T07:32:17.299663Z" visited="2022-10-10T07:30:40.713356Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xoj"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-10T07:32:17.299656Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-10-10-Problem-l%C3%B6sen" added="2022-10-10T13:25:36.858653Z" modified="2022-10-10T13:25:36.858671Z" visited="2022-10-10T13:25:36.858658Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-10T13:25:36.858663Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/julius/.gits/personal/other/schule/Klasse%2013/Mathe/2022-10-10-Problem-l%C3%B6sen.xopp" added="2022-10-10T13:25:37.235183Z" modified="2022-10-10T13:29:37.274412Z" visited="2022-10-10T13:25:37.235188Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xoj"/>
+        <bookmark:groups>
+          <bookmark:group>xournal++</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="xournalpp" exec="&apos;xournalpp %u&apos;" modified="2022-10-10T13:29:37.274406Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

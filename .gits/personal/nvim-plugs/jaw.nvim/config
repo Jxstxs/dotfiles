@@ -1,0 +1,18 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/Jxstxs/jaw.nvim.git
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "tag-insert"]
+	remote = origin
+	merge = refs/heads/tag-insert
+[branch "link-insert"]
+	remote = origin
+	merge = refs/heads/link-insert
+[branch "keybindings"]
+	remote = origin
+	merge = refs/heads/keybindings

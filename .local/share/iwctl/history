@@ -1,0 +1,13 @@
+station wlan0 scan
+station wlan0 show
+station wlan0 disconnect
+station wlan0 show
+exit
+station wlan0 scan
+station wlan0 get-networks 
+station wlan0 connect "FRITZ!Box neu"
+station wlan0 connect Xperia 
+station wlan0 get-networks 
+exit
+device wlan0 show 
+exit

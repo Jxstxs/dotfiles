@@ -1,0 +1,16 @@
+0000000000000000000000000000000000000000 51d73fbbc5a01cdfeec6b041ca4f15ae07cd162b Jxstxs <juleb0202@gmail.com> 1663916187 +0200
+51d73fbbc5a01cdfeec6b041ca4f15ae07cd162b 51d73fbbc5a01cdfeec6b041ca4f15ae07cd162b Jxstxs <juleb0202@gmail.com> 1663916187 +0200	reset: moving to HEAD
+51d73fbbc5a01cdfeec6b041ca4f15ae07cd162b a4387bac9396cadb46e14f94b239eb885d158d93 Jxstxs <juleb0202@gmail.com> 1664374826 +0200	commit: fix: rename for consitancy
+a4387bac9396cadb46e14f94b239eb885d158d93 3eda7a9caed5614fdcf624d175621b88f0f8b969 Jxstxs <juleb0202@gmail.com> 1664376865 +0200	merge wiki-new: Merge made by the 'ort' strategy.
+3eda7a9caed5614fdcf624d175621b88f0f8b969 93d44cde9d718ae66bb67657aad3158ee7227d07 Jxstxs <juleb0202@gmail.com> 1664537667 +0200	merge todo-insert: Fast-forward
+93d44cde9d718ae66bb67657aad3158ee7227d07 071df57271719eab527aacafc5d69aba5744a9db Jxstxs <juleb0202@gmail.com> 1664562871 +0200	commit: feat: added some base docs
+071df57271719eab527aacafc5d69aba5744a9db bca1c9732d7a8892f132542f514e539d2b581cd8 Jxstxs <juleb0202@gmail.com> 1664635246 +0200	commit: feat: added some kind of status
+bca1c9732d7a8892f132542f514e539d2b581cd8 1608b710631d97a50c6dce654cca91347c362932 Jxstxs <juleb0202@gmail.com> 1664636502 +0200	merge todo-insert: Fast-forward
+1608b710631d97a50c6dce654cca91347c362932 6598cbbd6862c46baa9013d280ee20cf37fd6c52 Jxstxs <juleb0202@gmail.com> 1664749790 +0200	pull --no-edit: Fast-forward
+6598cbbd6862c46baa9013d280ee20cf37fd6c52 a9d50c875507aad547238fff0e198370f1b99e2b Jxstxs <juleb0202@gmail.com> 1664751924 +0200	merge restructure: Fast-forward
+a9d50c875507aad547238fff0e198370f1b99e2b 2751c6d68dfecaad0acf8a79858e0f31b1177b89 Jxstxs <juleb0202@gmail.com> 1664753181 +0200	commit: feat: added utils section
+2751c6d68dfecaad0acf8a79858e0f31b1177b89 cf2b248bc4b0ea91f4dd6523b7b8b22315e8afdf Jxstxs <juleb0202@gmail.com> 1664753484 +0200	commit: fix: hoping to fix errors
+cf2b248bc4b0ea91f4dd6523b7b8b22315e8afdf d04cab2b9bdfaee2b60bfbfaef1a9c0a759e2112 Jxstxs <juleb0202@gmail.com> 1664796586 +0200	commit: fix: updated state
+d04cab2b9bdfaee2b60bfbfaef1a9c0a759e2112 c53a84cece8174c12669354b12f5211ccd9f08a9 Jxstxs <juleb0202@gmail.com> 1664796639 +0200	commit: fix: fixed folder name
+c53a84cece8174c12669354b12f5211ccd9f08a9 1c28edf9dae9024d23a6c4e38a152f73113af494 Jxstxs <juleb0202@gmail.com> 1664796656 +0200	commit: fix: fixed wiki path (only for dev)
+1c28edf9dae9024d23a6c4e38a152f73113af494 25b042b8d3bae6c141988d93105fddfa04a806f4 Jxstxs <juleb0202@gmail.com> 1664796666 +0200	merge keybindings: Merge made by the 'ort' strategy.

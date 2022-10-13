@@ -1,0 +1,1278 @@
+[    39.914] 
+X.Org X Server 1.21.1.4
+X Protocol Version 11, Revision 0
+[    39.915] Current Operating System: Linux julius-denkplatte 5.19.13-arch1-1 #1 SMP PREEMPT_DYNAMIC Tue, 04 Oct 2022 14:36:58 +0000 x86_64
+[    39.915] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=308f5529-4f04-4a88-a402-3ca8f63bde3f rw rootfstype=ext4 loglevel=3 resume=308f5529-4f04-4a88-a402-3ca8f63bde3f quiet resume=/dev/disk/by-uuid/308f5529-4f04-4a88-a402-3ca8f63bde3f resume_offset=33447936 resume=/dev/disk/by-uuid/308f5529-4f04-4a88-a402-3ca8f63bde3f resume_offset=33447936
+[    39.916]  
+[    39.917] Current version of pixman: 0.40.0
+[    39.918] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    39.918] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    39.920] (==) Log file: "/home/julius/.local/share/xorg/Xorg.0.log", Time: Mon Oct 10 07:02:49 2022
+[    39.922] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    39.922] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    39.924] (==) No Layout section.  Using the first Screen section.
+[    39.924] (==) No screen section available. Using defaults.
+[    39.924] (**) |-->Screen "Default Screen Section" (0)
+[    39.924] (**) |   |-->Monitor "<default monitor>"
+[    39.924] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    39.924] (**) Option "DontVTSwitch" "True"
+[    39.924] (**) Option "DontZap" "True"
+[    39.924] (==) Automatically adding devices
+[    39.924] (==) Automatically enabling devices
+[    39.924] (==) Automatically adding GPU devices
+[    39.924] (==) Automatically binding GPU devices
+[    39.924] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    39.924] (WW) The directory "/usr/share/fonts/misc" does not exist.
+[    39.924] 	Entry deleted from font path.
+[    39.925] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/TTF".
+[    39.925] 	Entry deleted from font path.
+[    39.925] 	(Run 'mkfontdir' on "/usr/share/fonts/TTF").
+[    39.925] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[    39.925] 	Entry deleted from font path.
+[    39.925] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    39.925] 	Entry deleted from font path.
+[    39.925] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[    39.925] 	Entry deleted from font path.
+[    39.925] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[    39.925] 	Entry deleted from font path.
+[    39.925] (==) FontPath set to:
+	
+[    39.925] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    39.925] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    39.925] (II) Module ABI versions:
+[    39.925] 	X.Org ANSI C Emulation: 0.4
+[    39.925] 	X.Org Video Driver: 25.2
+[    39.925] 	X.Org XInput driver : 24.4
+[    39.925] 	X.Org Server Extension : 10.0
+[    39.926] (++) using VT number 1
+
+[    39.928] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[    39.929] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    39.929] (II) Platform probe for /sys/devices/pci0000:00/0000:00:08.1/0000:07:00.0/drm/card0
+[    39.930] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[    39.935] (--) PCI:*(7@0:0:0) 1002:1638:17aa:509c rev 195, Mem @ 0xd0000000/268435456, 0xe0000000/2097152, 0xfd400000/524288, I/O @ 0x00001000/256
+[    39.935] (II) Open ACPI successful (/var/run/acpid.socket)
+[    39.935] (II) LoadModule: "glx"
+[    39.936] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    39.941] (II) Module glx: vendor="X.Org Foundation"
+[    39.941] 	compiled for 1.21.1.4, module version = 1.0.0
+[    39.941] 	ABI class: X.Org Server Extension, version 10.0
+[    39.941] (II) Applying OutputClass "AMDgpu" to /dev/dri/card0
+[    39.941] 	loading driver: amdgpu
+[    39.941] (==) Matched amdgpu as autoconfigured driver 0
+[    39.941] (==) Matched ati as autoconfigured driver 1
+[    39.941] (==) Matched modesetting as autoconfigured driver 2
+[    39.941] (==) Matched fbdev as autoconfigured driver 3
+[    39.941] (==) Matched vesa as autoconfigured driver 4
+[    39.941] (==) Assigned the driver to the xf86ConfigLayout
+[    39.941] (II) LoadModule: "amdgpu"
+[    39.941] (II) Loading /usr/lib/xorg/modules/drivers/amdgpu_drv.so
+[    39.944] (II) Module amdgpu: vendor="X.Org Foundation"
+[    39.944] 	compiled for 1.21.1.3, module version = 22.0.0
+[    39.944] 	Module class: X.Org Video Driver
+[    39.944] 	ABI class: X.Org Video Driver, version 25.2
+[    39.944] (II) LoadModule: "ati"
+[    39.944] (II) Loading /usr/lib/xorg/modules/drivers/ati_drv.so
+[    39.944] (II) Module ati: vendor="X.Org Foundation"
+[    39.944] 	compiled for 1.21.1.4, module version = 19.1.0
+[    39.944] 	Module class: X.Org Video Driver
+[    39.944] 	ABI class: X.Org Video Driver, version 25.2
+[    39.944] (II) LoadModule: "radeon"
+[    39.944] (II) Loading /usr/lib/xorg/modules/drivers/radeon_drv.so
+[    39.946] (II) Module radeon: vendor="X.Org Foundation"
+[    39.946] 	compiled for 1.21.1.4, module version = 19.1.0
+[    39.946] 	Module class: X.Org Video Driver
+[    39.946] 	ABI class: X.Org Video Driver, version 25.2
+[    39.946] (II) LoadModule: "modesetting"
+[    39.946] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    39.947] (II) Module modesetting: vendor="X.Org Foundation"
+[    39.947] 	compiled for 1.21.1.4, module version = 1.21.1
+[    39.947] 	Module class: X.Org Video Driver
+[    39.947] 	ABI class: X.Org Video Driver, version 25.2
+[    39.947] (II) LoadModule: "fbdev"
+[    39.947] (WW) Warning, couldn't open module fbdev
+[    39.947] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    39.947] (II) LoadModule: "vesa"
+[    39.947] (WW) Warning, couldn't open module vesa
+[    39.947] (EE) Failed to load module "vesa" (module does not exist, 0)
+[    39.947] (II) AMDGPU: Driver for AMD Radeon:
+	All GPUs supported by the amdgpu kernel driver
+[    39.947] (II) RADEON: Driver for ATI/AMD Radeon chipsets:
+	ATI Radeon Mobility X600 (M24), ATI FireMV 2400,
+	ATI Radeon Mobility X300 (M24), ATI FireGL M24 GL,
+	ATI Radeon X600 (RV380), ATI FireGL V3200 (RV380),
+	ATI Radeon IGP320 (A3), ATI Radeon IGP330/340/350 (A4),
+	ATI Radeon 9500, ATI Radeon 9600TX, ATI FireGL Z1, ATI Radeon 9800SE,
+	ATI Radeon 9800, ATI FireGL X2, ATI Radeon 9600, ATI Radeon 9600SE,
+	ATI Radeon 9600XT, ATI FireGL T2, ATI Radeon 9650, ATI FireGL RV360,
+	ATI Radeon 7000 IGP (A4+), ATI Radeon 8500 AIW,
+	ATI Radeon IGP320M (U1), ATI Radeon IGP330M/340M/350M (U2),
+	ATI Radeon Mobility 7000 IGP, ATI Radeon 9000/PRO, ATI Radeon 9000,
+	ATI Radeon X800 (R420), ATI Radeon X800PRO (R420),
+	ATI Radeon X800SE (R420), ATI FireGL X3 (R420),
+	ATI Radeon Mobility 9800 (M18), ATI Radeon X800 SE (R420),
+	ATI Radeon X800XT (R420), ATI Radeon X800 VE (R420),
+	ATI Radeon X850 (R480), ATI Radeon X850 XT (R480),
+	ATI Radeon X850 SE (R480), ATI Radeon X850 PRO (R480),
+	ATI Radeon X850 XT PE (R480), ATI Radeon Mobility M7,
+	ATI Mobility FireGL 7800 M7, ATI Radeon Mobility M6,
+	ATI FireGL Mobility 9000 (M9), ATI Radeon Mobility 9000 (M9),
+	ATI Radeon 9700 Pro, ATI Radeon 9700/9500Pro, ATI FireGL X1,
+	ATI Radeon 9800PRO, ATI Radeon 9800XT,
+	ATI Radeon Mobility 9600/9700 (M10/M11),
+	ATI Radeon Mobility 9600 (M10), ATI Radeon Mobility 9600 (M11),
+	ATI FireGL Mobility T2 (M10), ATI FireGL Mobility T2e (M11),
+	ATI Radeon, ATI FireGL 8700/8800, ATI Radeon 8500, ATI Radeon 9100,
+	ATI Radeon 7500, ATI Radeon VE/7000, ATI ES1000,
+	ATI Radeon Mobility X300 (M22), ATI Radeon Mobility X600 SE (M24C),
+	ATI FireGL M22 GL, ATI Radeon X800 (R423), ATI Radeon X800PRO (R423),
+	ATI Radeon X800LE (R423), ATI Radeon X800SE (R423),
+	ATI Radeon X800 XTP (R430), ATI Radeon X800 XL (R430),
+	ATI Radeon X800 SE (R430), ATI Radeon X800 (R430),
+	ATI FireGL V7100 (R423), ATI FireGL V5100 (R423),
+	ATI FireGL unknown (R423), ATI Mobility FireGL V5000 (M26),
+	ATI Mobility Radeon X700 XL (M26), ATI Mobility Radeon X700 (M26),
+	ATI Radeon X550XTX, ATI Radeon 9100 IGP (A5),
+	ATI Radeon Mobility 9100 IGP (U3), ATI Radeon XPRESS 200,
+	ATI Radeon XPRESS 200M, ATI Radeon 9250, ATI Radeon 9200,
+	ATI Radeon 9200SE, ATI FireMV 2200, ATI Radeon X300 (RV370),
+	ATI Radeon X600 (RV370), ATI Radeon X550 (RV370),
+	ATI FireGL V3100 (RV370), ATI FireMV 2200 PCIE (RV370),
+	ATI Radeon Mobility 9200 (M9+), ATI Mobility Radeon X800 XT (M28),
+	ATI Mobility FireGL V5100 (M28), ATI Mobility Radeon X800 (M28),
+	ATI Radeon X850, ATI unknown Radeon / FireGL (R480),
+	ATI Radeon X800XT (R423), ATI FireGL V5000 (RV410),
+	ATI Radeon X700 XT (RV410), ATI Radeon X700 PRO (RV410),
+	ATI Radeon X700 SE (RV410), ATI Radeon X700 (RV410),
+	ATI Radeon X1800, ATI Mobility Radeon X1800 XT,
+	ATI Mobility Radeon X1800, ATI Mobility FireGL V7200,
+	ATI FireGL V7200, ATI FireGL V5300, ATI Mobility FireGL V7100,
+	ATI FireGL V7300, ATI FireGL V7350, ATI Radeon X1600, ATI RV505,
+	ATI Radeon X1300/X1550, ATI Radeon X1550, ATI M54-GL,
+	ATI Mobility Radeon X1400, ATI Radeon X1550 64-bit,
+	ATI Mobility Radeon X1300, ATI Radeon X1300, ATI FireGL V3300,
+	ATI FireGL V3350, ATI Mobility Radeon X1450,
+	ATI Mobility Radeon X2300, ATI Mobility Radeon X1350,
+	ATI FireMV 2250, ATI Radeon X1650, ATI Mobility FireGL V5200,
+	ATI Mobility Radeon X1600, ATI Radeon X1300 XT/X1600 Pro,
+	ATI FireGL V3400, ATI Mobility FireGL V5250,
+	ATI Mobility Radeon X1700, ATI Mobility Radeon X1700 XT,
+	ATI FireGL V5200, ATI Radeon X2300HD, ATI Mobility Radeon HD 2300,
+	ATI Radeon X1950, ATI Radeon X1900, ATI AMD Stream Processor,
+	ATI RV560, ATI Mobility Radeon X1900, ATI Radeon X1950 GT, ATI RV570,
+	ATI FireGL V7400, ATI Radeon 9100 PRO IGP,
+	ATI Radeon Mobility 9200 IGP, ATI Radeon X1200, ATI RS740,
+	ATI RS740M, ATI Radeon HD 2900 XT, ATI Radeon HD 2900 Pro,
+	ATI Radeon HD 2900 GT, ATI FireGL V8650, ATI FireGL V8600,
+	ATI FireGL V7600, ATI Radeon 4800 Series, ATI Radeon HD 4870 x2,
+	ATI Radeon HD 4850 x2, ATI FirePro V8750 (FireGL),
+	ATI FirePro V7760 (FireGL), ATI Mobility RADEON HD 4850,
+	ATI Mobility RADEON HD 4850 X2, ATI FirePro RV770,
+	AMD FireStream 9270, AMD FireStream 9250, ATI FirePro V8700 (FireGL),
+	ATI Mobility RADEON HD 4870, ATI Mobility RADEON M98,
+	ATI FirePro M7750, ATI M98, ATI Mobility Radeon HD 4650,
+	ATI Radeon RV730 (AGP), ATI Mobility Radeon HD 4670,
+	ATI FirePro M5750, ATI RV730XT [Radeon HD 4670], ATI RADEON E4600,
+	ATI Radeon HD 4600 Series, ATI RV730 PRO [Radeon HD 4650],
+	ATI FirePro V7750 (FireGL), ATI FirePro V5700 (FireGL),
+	ATI FirePro V3750 (FireGL), ATI Mobility Radeon HD 4830,
+	ATI Mobility Radeon HD 4850, ATI FirePro M7740, ATI RV740,
+	ATI Radeon HD 4770, ATI Radeon HD 4700 Series, ATI RV610,
+	ATI Radeon HD 2400 XT, ATI Radeon HD 2400 Pro,
+	ATI Radeon HD 2400 PRO AGP, ATI FireGL V4000, ATI Radeon HD 2350,
+	ATI Mobility Radeon HD 2400 XT, ATI Mobility Radeon HD 2400,
+	ATI RADEON E2400, ATI FireMV 2260, ATI RV670, ATI Radeon HD3870,
+	ATI Mobility Radeon HD 3850, ATI Radeon HD3850,
+	ATI Mobility Radeon HD 3850 X2, ATI Mobility Radeon HD 3870,
+	ATI Mobility Radeon HD 3870 X2, ATI Radeon HD3870 X2,
+	ATI FireGL V7700, ATI Radeon HD3690, AMD Firestream 9170,
+	ATI Radeon HD 4550, ATI Radeon RV710, ATI Radeon HD 4350,
+	ATI Mobility Radeon 4300 Series, ATI Mobility Radeon 4500 Series,
+	ATI FirePro RG220, ATI Mobility Radeon 4330, ATI RV630,
+	ATI Mobility Radeon HD 2600, ATI Mobility Radeon HD 2600 XT,
+	ATI Radeon HD 2600 XT AGP, ATI Radeon HD 2600 Pro AGP,
+	ATI Radeon HD 2600 XT, ATI Radeon HD 2600 Pro, ATI Gemini RV630,
+	ATI Gemini Mobility Radeon HD 2600 XT, ATI FireGL V5600,
+	ATI FireGL V3600, ATI Radeon HD 2600 LE,
+	ATI Mobility FireGL Graphics Processor, ATI Radeon HD 3470,
+	ATI Mobility Radeon HD 3430, ATI Mobility Radeon HD 3400 Series,
+	ATI Radeon HD 3450, ATI Radeon HD 3430, ATI FirePro V3700,
+	ATI FireMV 2450, ATI Radeon HD 3600 Series, ATI Radeon HD 3650 AGP,
+	ATI Radeon HD 3600 PRO, ATI Radeon HD 3600 XT,
+	ATI Mobility Radeon HD 3650, ATI Mobility Radeon HD 3670,
+	ATI Mobility FireGL V5700, ATI Mobility FireGL V5725,
+	ATI Radeon HD 3200 Graphics, ATI Radeon 3100 Graphics,
+	ATI Radeon HD 3300 Graphics, ATI Radeon 3000 Graphics, SUMO, SUMO2,
+	ATI Radeon HD 4200, ATI Radeon 4100, ATI Mobility Radeon HD 4200,
+	ATI Mobility Radeon 4100, ATI Radeon HD 4290, ATI Radeon HD 4250,
+	AMD Radeon HD 6310 Graphics, AMD Radeon HD 6250 Graphics,
+	AMD Radeon HD 6300 Series Graphics,
+	AMD Radeon HD 6200 Series Graphics, PALM, CYPRESS,
+	ATI FirePro (FireGL) Graphics Adapter, AMD Firestream 9370,
+	AMD Firestream 9350, ATI Radeon HD 5800 Series,
+	ATI Radeon HD 5900 Series, ATI Mobility Radeon HD 5800 Series,
+	ATI Radeon HD 5700 Series, ATI Radeon HD 6700 Series,
+	ATI Mobility Radeon HD 5000 Series, ATI Mobility Radeon HD 5570,
+	ATI Radeon HD 5670, ATI Radeon HD 5570, ATI Radeon HD 5500 Series,
+	REDWOOD, ATI Mobility Radeon Graphics, CEDAR, ATI FirePro 2270,
+	ATI Radeon HD 5450, CAYMAN, AMD Radeon HD 6900 Series,
+	AMD Radeon HD 6900M Series, Mobility Radeon HD 6000 Series, BARTS,
+	AMD Radeon HD 6800 Series, AMD Radeon HD 6700 Series, TURKS, CAICOS,
+	ARUBA, TAHITI, PITCAIRN, VERDE, OLAND, HAINAN, BONAIRE, KABINI,
+	MULLINS, KAVERI, HAWAII
+[    39.949] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    39.953] (WW) Falling back to old probe method for modesetting
+[    39.954] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    39.954] (II) AMDGPU(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    39.954] (==) AMDGPU(0): Depth 24, (--) framebuffer bpp 32
+[    39.954] (II) AMDGPU(0): Pixel depth = 24 bits stored in 4 bytes (32 bpp pixmaps)
+[    39.954] (==) AMDGPU(0): Default visual is TrueColor
+[    39.954] (==) AMDGPU(0): RGB weight 888
+[    39.954] (II) AMDGPU(0): Using 8 bits per RGB (8 bit DAC)
+[    39.954] (--) AMDGPU(0): Chipset: "Unknown AMD Radeon GPU" (ChipID = 0x1638)
+[    39.954] (II) Loading sub module "fb"
+[    39.954] (II) LoadModule: "fb"
+[    39.954] (II) Module "fb" already built-in
+[    39.954] (II) Loading sub module "dri2"
+[    39.954] (II) LoadModule: "dri2"
+[    39.954] (II) Module "dri2" already built-in
+[    40.097] (II) Loading sub module "glamoregl"
+[    40.097] (II) LoadModule: "glamoregl"
+[    40.097] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    40.104] (II) Module glamoregl: vendor="X.Org Foundation"
+[    40.104] 	compiled for 1.21.1.4, module version = 1.0.1
+[    40.104] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    40.123] (II) AMDGPU(0): glamor X acceleration enabled on AMD RENOIR (LLVM 14.0.6, DRM 3.47, 5.19.13-arch1-1)
+[    40.123] (II) AMDGPU(0): glamor detected, initialising EGL layer.
+[    40.123] (==) AMDGPU(0): TearFree property default: auto
+[    40.123] (==) AMDGPU(0): VariableRefresh: disabled
+[    40.123] (==) AMDGPU(0): AsyncFlipSecondaries: disabled
+[    40.123] (II) AMDGPU(0): KMS Pageflipping: enabled
+[    40.125] (II) AMDGPU(0): Output eDP has no monitor section
+[    40.125] (II) AMDGPU(0): Output HDMI-A-0 has no monitor section
+[    40.126] (II) AMDGPU(0): Output DisplayPort-0 has no monitor section
+[    40.126] (II) AMDGPU(0): Output DisplayPort-1 has no monitor section
+[    40.146] (II) AMDGPU(0): EDID for output eDP
+[    40.146] (II) AMDGPU(0): Manufacturer: AUO  Model: 592d  Serial#: 0
+[    40.146] (II) AMDGPU(0): Year: 2018  Week: 0
+[    40.146] (II) AMDGPU(0): EDID Version: 1.4
+[    40.146] (II) AMDGPU(0): Digital Display Input
+[    40.146] (II) AMDGPU(0): 8 bits per channel
+[    40.146] (II) AMDGPU(0): Digital interface is DisplayPort
+[    40.146] (II) AMDGPU(0): Max Image Size [cm]: horiz.: 29  vert.: 17
+[    40.146] (II) AMDGPU(0): Gamma: 2.20
+[    40.146] (II) AMDGPU(0): No DPMS capabilities specified
+[    40.146] (II) AMDGPU(0): Supported color encodings: RGB 4:4:4 
+[    40.146] (II) AMDGPU(0): First detailed timing is preferred mode
+[    40.146] (II) AMDGPU(0): Preferred mode is native pixel format and refresh rate
+[    40.146] (II) AMDGPU(0): redX: 0.640 redY: 0.330   greenX: 0.300 greenY: 0.600
+[    40.146] (II) AMDGPU(0): blueX: 0.150 blueY: 0.060   whiteX: 0.313 whiteY: 0.329
+[    40.146] (II) AMDGPU(0): Manufacturer's mask: 0
+[    40.146] (II) AMDGPU(0): Supported detailed timing:
+[    40.146] (II) AMDGPU(0): clock: 142.6 MHz   Image Size:  293 x 165 mm
+[    40.147] (II) AMDGPU(0): h_active: 1920  h_sync: 1978  h_sync_end 2020 h_blank_end 2080 h_border: 0
+[    40.147] (II) AMDGPU(0): v_active: 1080  v_sync: 1083  v_sync_end 1088 v_blanking: 1142 v_border: 0
+[    40.147] (II) AMDGPU(0): Unknown vendor-specific block f
+[    40.147] (II) AMDGPU(0):  AUO
+[    40.147] (II) AMDGPU(0):  B133HAN05.9
+[    40.147] (II) AMDGPU(0): EDID (in hex):
+[    40.147] (II) AMDGPU(0): 	00ffffffffffff0006af2d5900000000
+[    40.147] (II) AMDGPU(0): 	001c0104a51d117802ee95a3544c9926
+[    40.147] (II) AMDGPU(0): 	0f505400000001010101010101010101
+[    40.147] (II) AMDGPU(0): 	010101010101b43780a070383e403a2a
+[    40.147] (II) AMDGPU(0): 	350025a5100000180000000f00000000
+[    40.147] (II) AMDGPU(0): 	00000000000000000020000000fe0041
+[    40.147] (II) AMDGPU(0): 	554f0a202020202020202020000000fe
+[    40.147] (II) AMDGPU(0): 	004231333348414e30352e39200a0079
+[    40.147] (II) AMDGPU(0): Printing probed modes for output eDP
+[    40.147] (II) AMDGPU(0): Modeline "1920x1080"x60.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[    40.147] (II) AMDGPU(0): Modeline "1680x1050"x60.0  142.60  1680 1978 2020 2080  1050 1083 1088 1142 -hsync -vsync (68.6 kHz e)
+[    40.147] (II) AMDGPU(0): Modeline "1280x1024"x60.0  142.60  1280 1978 2020 2080  1024 1083 1088 1142 -hsync -vsync (68.6 kHz e)
+[    40.147] (II) AMDGPU(0): Modeline "1440x900"x60.0  142.60  1440 1978 2020 2080  900 1083 1088 1142 -hsync -vsync (68.6 kHz e)
+[    40.147] (II) AMDGPU(0): Modeline "1280x800"x60.0  142.60  1280 1978 2020 2080  800 1083 1088 1142 -hsync -vsync (68.6 kHz e)
+[    40.147] (II) AMDGPU(0): Modeline "1280x720"x60.0  142.60  1280 1978 2020 2080  720 1083 1088 1142 -hsync -vsync (68.6 kHz e)
+[    40.147] (II) AMDGPU(0): Modeline "1024x768"x60.0  142.60  1024 1978 2020 2080  768 1083 1088 1142 -hsync -vsync (68.6 kHz e)
+[    40.147] (II) AMDGPU(0): Modeline "800x600"x60.0  142.60  800 1978 2020 2080  600 1083 1088 1142 -hsync -vsync (68.6 kHz e)
+[    40.147] (II) AMDGPU(0): Modeline "640x480"x60.0  142.60  640 1978 2020 2080  480 1083 1088 1142 -hsync -vsync (68.6 kHz e)
+[    40.147] (II) AMDGPU(0): EDID for output HDMI-A-0
+[    40.147] (II) AMDGPU(0): EDID for output DisplayPort-0
+[    40.147] (II) AMDGPU(0): EDID for output DisplayPort-1
+[    40.147] (II) AMDGPU(0): Output eDP connected
+[    40.147] (II) AMDGPU(0): Output HDMI-A-0 disconnected
+[    40.147] (II) AMDGPU(0): Output DisplayPort-0 disconnected
+[    40.147] (II) AMDGPU(0): Output DisplayPort-1 disconnected
+[    40.147] (II) AMDGPU(0): Using exact sizes for initial modes
+[    40.147] (II) AMDGPU(0): Output eDP using initial mode 1920x1080 +0+0
+[    40.147] (II) AMDGPU(0): mem size init: gart size :d2a98800 vram size: s:3df2c000 visible:3df2c000
+[    40.147] (==) AMDGPU(0): DPI set to (96, 96)
+[    40.147] (==) AMDGPU(0): Using gamma correction (1.0, 1.0, 1.0)
+[    40.147] (II) Loading sub module "ramdac"
+[    40.147] (II) LoadModule: "ramdac"
+[    40.147] (II) Module "ramdac" already built-in
+[    40.147] (II) UnloadModule: "radeon"
+[    40.147] (II) Unloading radeon
+[    40.147] (II) UnloadModule: "modesetting"
+[    40.147] (II) Unloading modesetting
+[    40.147] (II) AMDGPU(0): [DRI2] Setup complete
+[    40.147] (II) AMDGPU(0): [DRI2]   DRI driver: radeonsi
+[    40.147] (II) AMDGPU(0): [DRI2]   VDPAU driver: radeonsi
+[    40.203] (II) AMDGPU(0): Front buffer pitch: 7680 bytes
+[    40.204] (II) AMDGPU(0): SYNC extension fences enabled
+[    40.204] (II) AMDGPU(0): Present extension enabled
+[    40.204] (==) AMDGPU(0): DRI3 enabled
+[    40.204] (==) AMDGPU(0): Backing store enabled
+[    40.204] (II) AMDGPU(0): Direct rendering enabled
+[    40.221] (II) AMDGPU(0): Use GLAMOR acceleration.
+[    40.221] (II) AMDGPU(0): Acceleration enabled
+[    40.221] (==) AMDGPU(0): DPMS enabled
+[    40.221] (==) AMDGPU(0): Silken mouse enabled
+[    40.221] (II) AMDGPU(0): Set up textured video (glamor)
+[    40.228] (II) Initializing extension Generic Event Extension
+[    40.228] (II) Initializing extension SHAPE
+[    40.228] (II) Initializing extension MIT-SHM
+[    40.228] (II) Initializing extension XInputExtension
+[    40.228] (II) Initializing extension XTEST
+[    40.228] (II) Initializing extension BIG-REQUESTS
+[    40.229] (II) Initializing extension SYNC
+[    40.229] (II) Initializing extension XKEYBOARD
+[    40.229] (II) Initializing extension XC-MISC
+[    40.229] (II) Initializing extension SECURITY
+[    40.229] (II) Initializing extension XFIXES
+[    40.229] (II) Initializing extension RENDER
+[    40.230] (II) Initializing extension RANDR
+[    40.230] (II) Initializing extension COMPOSITE
+[    40.230] (II) Initializing extension DAMAGE
+[    40.230] (II) Initializing extension MIT-SCREEN-SAVER
+[    40.230] (II) Initializing extension DOUBLE-BUFFER
+[    40.231] (II) Initializing extension RECORD
+[    40.231] (II) Initializing extension DPMS
+[    40.231] (II) Initializing extension Present
+[    40.231] (II) Initializing extension DRI3
+[    40.231] (II) Initializing extension X-Resource
+[    40.231] (II) Initializing extension XVideo
+[    40.231] (II) Initializing extension XVideo-MotionCompensation
+[    40.231] (II) Initializing extension GLX
+[    40.239] (II) AIGLX: Loaded and initialized radeonsi
+[    40.239] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    40.239] (II) Initializing extension XFree86-VidModeExtension
+[    40.240] (II) Initializing extension XFree86-DGA
+[    40.240] (II) Initializing extension XFree86-DRI
+[    40.240] (II) Initializing extension DRI2
+[    40.241] (II) AMDGPU(0): Setting screen physical size to 508 x 285
+[    40.367] (II) config/udev: Adding input device Power Button (/dev/input/event3)
+[    40.367] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    40.367] (**) Power Button: Applying InputClass "system-keyboard"
+[    40.367] (II) LoadModule: "libinput"
+[    40.367] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    40.370] (II) Module libinput: vendor="X.Org Foundation"
+[    40.371] 	compiled for 1.21.1.3, module version = 1.2.1
+[    40.371] 	Module class: X.Org XInput Driver
+[    40.371] 	ABI class: X.Org XInput driver, version 24.4
+[    40.371] (II) Using input driver 'libinput' for 'Power Button'
+[    40.372] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 28 paused 0
+[    40.372] (**) Power Button: always reports core events
+[    40.372] (**) Option "Device" "/dev/input/event3"
+[    40.378] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    40.378] (II) event3  - Power Button: device is a keyboard
+[    40.378] (II) event3  - Power Button: device removed
+[    40.378] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3"
+[    40.379] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    40.379] (**) Option "xkb_model" "pc105"
+[    40.379] (**) Option "xkb_layout" "de"
+[    40.379] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    40.406] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    40.406] (II) event3  - Power Button: device is a keyboard
+[    40.407] (II) config/udev: Adding input device Video Bus (/dev/input/event5)
+[    40.407] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    40.407] (**) Video Bus: Applying InputClass "system-keyboard"
+[    40.407] (II) Using input driver 'libinput' for 'Video Bus'
+[    40.408] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 31 paused 0
+[    40.408] (**) Video Bus: always reports core events
+[    40.408] (**) Option "Device" "/dev/input/event5"
+[    40.409] (II) event5  - Video Bus: is tagged by udev as: Keyboard
+[    40.409] (II) event5  - Video Bus: device is a keyboard
+[    40.409] (II) event5  - Video Bus: device removed
+[    40.409] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:11/LNXVIDEO:00/input/input6/event5"
+[    40.409] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    40.409] (**) Option "xkb_model" "pc105"
+[    40.409] (**) Option "xkb_layout" "de"
+[    40.409] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    40.411] (II) event5  - Video Bus: is tagged by udev as: Keyboard
+[    40.411] (II) event5  - Video Bus: device is a keyboard
+[    40.412] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    40.412] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    40.412] (**) Power Button: Applying InputClass "system-keyboard"
+[    40.412] (II) Using input driver 'libinput' for 'Power Button'
+[    40.413] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 32 paused 0
+[    40.413] (**) Power Button: always reports core events
+[    40.413] (**) Option "Device" "/dev/input/event0"
+[    40.414] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    40.414] (II) event0  - Power Button: device is a keyboard
+[    40.414] (II) event0  - Power Button: device removed
+[    40.414] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[    40.414] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[    40.414] (**) Option "xkb_model" "pc105"
+[    40.414] (**) Option "xkb_layout" "de"
+[    40.414] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    40.415] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    40.415] (II) event0  - Power Button: device is a keyboard
+[    40.416] (II) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[    40.416] (II) No input driver specified, ignoring this device.
+[    40.416] (II) This device may have been added with another device file.
+[    40.416] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
+[    40.416] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    40.416] (**) Sleep Button: Applying InputClass "system-keyboard"
+[    40.416] (II) Using input driver 'libinput' for 'Sleep Button'
+[    40.417] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 33 paused 0
+[    40.417] (**) Sleep Button: always reports core events
+[    40.417] (**) Option "Device" "/dev/input/event2"
+[    40.418] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[    40.418] (II) event2  - Sleep Button: device is a keyboard
+[    40.418] (II) event2  - Sleep Button: device removed
+[    40.419] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2/event2"
+[    40.419] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[    40.419] (**) Option "xkb_model" "pc105"
+[    40.419] (**) Option "xkb_layout" "de"
+[    40.419] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    40.420] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[    40.420] (II) event2  - Sleep Button: device is a keyboard
+[    40.421] (II) config/udev: Adding input device HD-Audio Generic HDMI/DP,pcm=3 (/dev/input/event8)
+[    40.421] (II) No input driver specified, ignoring this device.
+[    40.421] (II) This device may have been added with another device file.
+[    40.421] (II) config/udev: Adding input device HD-Audio Generic HDMI/DP,pcm=7 (/dev/input/event9)
+[    40.421] (II) No input driver specified, ignoring this device.
+[    40.421] (II) This device may have been added with another device file.
+[    40.422] (II) config/udev: Adding input device HD-Audio Generic HDMI/DP,pcm=8 (/dev/input/event10)
+[    40.422] (II) No input driver specified, ignoring this device.
+[    40.422] (II) This device may have been added with another device file.
+[    40.422] (II) config/udev: Adding input device Integrated Camera: Integrated C (/dev/input/event16)
+[    40.422] (**) Integrated Camera: Integrated C: Applying InputClass "libinput keyboard catchall"
+[    40.422] (**) Integrated Camera: Integrated C: Applying InputClass "system-keyboard"
+[    40.422] (II) Using input driver 'libinput' for 'Integrated Camera: Integrated C'
+[    40.423] (II) systemd-logind: got fd for /dev/input/event16 13:80 fd 34 paused 0
+[    40.423] (**) Integrated Camera: Integrated C: always reports core events
+[    40.423] (**) Option "Device" "/dev/input/event16"
+[    40.425] (II) event16 - Integrated Camera: Integrated C: is tagged by udev as: Keyboard
+[    40.425] (II) event16 - Integrated Camera: Integrated C: device is a keyboard
+[    40.425] (II) event16 - Integrated Camera: Integrated C: device removed
+[    40.425] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.3/usb1/1-3/1-3:1.0/input/input21/event16"
+[    40.425] (II) XINPUT: Adding extended input device "Integrated Camera: Integrated C" (type: KEYBOARD, id 10)
+[    40.425] (**) Option "xkb_model" "pc105"
+[    40.425] (**) Option "xkb_layout" "de"
+[    40.425] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    40.427] (II) event16 - Integrated Camera: Integrated C: is tagged by udev as: Keyboard
+[    40.427] (II) event16 - Integrated Camera: Integrated C: device is a keyboard
+[    40.428] (II) config/udev: Adding input device Integrated 5M Camera: Integrate (/dev/input/event19)
+[    40.428] (**) Integrated 5M Camera: Integrate: Applying InputClass "libinput keyboard catchall"
+[    40.428] (**) Integrated 5M Camera: Integrate: Applying InputClass "system-keyboard"
+[    40.428] (II) Using input driver 'libinput' for 'Integrated 5M Camera: Integrate'
+[    40.429] (II) systemd-logind: got fd for /dev/input/event19 13:83 fd 35 paused 0
+[    40.429] (**) Integrated 5M Camera: Integrate: always reports core events
+[    40.429] (**) Option "Device" "/dev/input/event19"
+[    40.430] (II) event19 - Integrated 5M Camera: Integrate: is tagged by udev as: Keyboard
+[    40.431] (II) event19 - Integrated 5M Camera: Integrate: device is a keyboard
+[    40.431] (II) event19 - Integrated 5M Camera: Integrate: device removed
+[    40.431] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.1/3-4.1:1.0/input/input22/event19"
+[    40.431] (II) XINPUT: Adding extended input device "Integrated 5M Camera: Integrate" (type: KEYBOARD, id 11)
+[    40.431] (**) Option "xkb_model" "pc105"
+[    40.431] (**) Option "xkb_layout" "de"
+[    40.431] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    40.432] (II) event19 - Integrated 5M Camera: Integrate: is tagged by udev as: Keyboard
+[    40.433] (II) event19 - Integrated 5M Camera: Integrate: device is a keyboard
+[    40.434] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Pen (/dev/input/event15)
+[    40.434] (**) Wacom Pen and multitouch sensor Pen: Applying InputClass "libinput tablet catchall"
+[    40.434] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Pen'
+[    40.490] (II) systemd-logind: got fd for /dev/input/event15 13:79 fd 36 paused 0
+[    40.490] (**) Wacom Pen and multitouch sensor Pen: always reports core events
+[    40.490] (**) Option "Device" "/dev/input/event15"
+[    40.492] (II) event15 - Wacom Pen and multitouch sensor Pen: is tagged by udev as: Tablet
+[    40.519] (II) event15 - Wacom Pen and multitouch sensor Pen: tablet 'Wacom Pen and multitouch sensor Pen' unknown to libwacom
+[    40.530] (II) event15 - Wacom Pen and multitouch sensor Pen: device is a tablet
+[    40.530] (II) event15 - Wacom Pen and multitouch sensor Pen: device removed
+[    40.530] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0002/input/input23/event15"
+[    40.530] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Pen" (type: TABLET, id 12)
+[    40.532] (II) event15 - Wacom Pen and multitouch sensor Pen: is tagged by udev as: Tablet
+[    40.543] (II) event15 - Wacom Pen and multitouch sensor Pen: tablet 'Wacom Pen and multitouch sensor Pen' unknown to libwacom
+[    40.554] (II) event15 - Wacom Pen and multitouch sensor Pen: device is a tablet
+[    40.555] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Pen (/dev/input/mouse2)
+[    40.555] (II) No input driver specified, ignoring this device.
+[    40.555] (II) This device may have been added with another device file.
+[    40.556] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Finger (/dev/input/event17)
+[    40.556] (**) Wacom Pen and multitouch sensor Finger: Applying InputClass "libinput touchscreen catchall"
+[    40.556] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Finger'
+[    40.557] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 38 paused 0
+[    40.557] (**) Wacom Pen and multitouch sensor Finger: always reports core events
+[    40.557] (**) Option "Device" "/dev/input/event17"
+[    40.559] (II) event17 - Wacom Pen and multitouch sensor Finger: is tagged by udev as: Touchscreen
+[    40.559] (II) event17 - Wacom Pen and multitouch sensor Finger: device is a touch device
+[    40.560] (II) event17 - Wacom Pen and multitouch sensor Finger: device removed
+[    40.560] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0002/input/input24/event17"
+[    40.560] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Finger" (type: TOUCHSCREEN, id 13)
+[    40.560] (**) Option "AccelerationScheme" "none"
+[    40.560] (**) Wacom Pen and multitouch sensor Finger: (accel) selected scheme none/0
+[    40.560] (**) Wacom Pen and multitouch sensor Finger: (accel) acceleration factor: 2.000
+[    40.560] (**) Wacom Pen and multitouch sensor Finger: (accel) acceleration threshold: 4
+[    40.561] (II) event17 - Wacom Pen and multitouch sensor Finger: is tagged by udev as: Touchscreen
+[    40.562] (II) event17 - Wacom Pen and multitouch sensor Finger: device is a touch device
+[    40.563] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Finger (/dev/input/mouse3)
+[    40.563] (II) No input driver specified, ignoring this device.
+[    40.563] (II) This device may have been added with another device file.
+[    40.563] (II) config/udev: Adding input device HD-Audio Generic Mic (/dev/input/event13)
+[    40.563] (II) No input driver specified, ignoring this device.
+[    40.563] (II) This device may have been added with another device file.
+[    40.563] (II) config/udev: Adding input device HD-Audio Generic Headphone (/dev/input/event14)
+[    40.563] (II) No input driver specified, ignoring this device.
+[    40.563] (II) This device may have been added with another device file.
+[    40.564] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
+[    40.564] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    40.564] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[    40.564] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    40.565] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 39 paused 0
+[    40.565] (**) AT Translated Set 2 keyboard: always reports core events
+[    40.565] (**) Option "Device" "/dev/input/event4"
+[    40.566] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    40.566] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[    40.567] (II) event4  - AT Translated Set 2 keyboard: device removed
+[    40.567] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input4/event4"
+[    40.567] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14)
+[    40.567] (**) Option "xkb_model" "pc105"
+[    40.567] (**) Option "xkb_layout" "de"
+[    40.567] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    40.569] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    40.569] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[    40.570] (II) config/udev: Adding input device ETPS/2 Elantech TrackPoint (/dev/input/event11)
+[    40.570] (**) ETPS/2 Elantech TrackPoint: Applying InputClass "libinput pointer catchall"
+[    40.570] (II) Using input driver 'libinput' for 'ETPS/2 Elantech TrackPoint'
+[    40.571] (II) systemd-logind: got fd for /dev/input/event11 13:75 fd 40 paused 0
+[    40.571] (**) ETPS/2 Elantech TrackPoint: always reports core events
+[    40.571] (**) Option "Device" "/dev/input/event11"
+[    40.572] (II) event11 - ETPS/2 Elantech TrackPoint: is tagged by udev as: Mouse Pointingstick
+[    40.573] (II) event11 - ETPS/2 Elantech TrackPoint: device is a pointer
+[    40.574] (II) event11 - ETPS/2 Elantech TrackPoint: device removed
+[    40.574] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input15/event11"
+[    40.574] (II) XINPUT: Adding extended input device "ETPS/2 Elantech TrackPoint" (type: MOUSE, id 15)
+[    40.574] (**) Option "AccelerationScheme" "none"
+[    40.574] (**) ETPS/2 Elantech TrackPoint: (accel) selected scheme none/0
+[    40.574] (**) ETPS/2 Elantech TrackPoint: (accel) acceleration factor: 2.000
+[    40.574] (**) ETPS/2 Elantech TrackPoint: (accel) acceleration threshold: 4
+[    40.575] (II) event11 - ETPS/2 Elantech TrackPoint: is tagged by udev as: Mouse Pointingstick
+[    40.576] (II) event11 - ETPS/2 Elantech TrackPoint: device is a pointer
+[    40.577] (II) config/udev: Adding input device ETPS/2 Elantech TrackPoint (/dev/input/mouse0)
+[    40.577] (II) No input driver specified, ignoring this device.
+[    40.577] (II) This device may have been added with another device file.
+[    40.578] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event12)
+[    40.578] (**) ETPS/2 Elantech Touchpad: Applying InputClass "libinput touchpad catchall"
+[    40.578] (II) Using input driver 'libinput' for 'ETPS/2 Elantech Touchpad'
+[    40.579] (II) systemd-logind: got fd for /dev/input/event12 13:76 fd 41 paused 0
+[    40.579] (**) ETPS/2 Elantech Touchpad: always reports core events
+[    40.579] (**) Option "Device" "/dev/input/event12"
+[    40.580] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[    40.582] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[    40.582] (II) event12 - ETPS/2 Elantech Touchpad: device removed
+[    40.583] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input8/event12"
+[    40.583] (II) XINPUT: Adding extended input device "ETPS/2 Elantech Touchpad" (type: TOUCHPAD, id 16)
+[    40.585] (**) Option "AccelerationScheme" "none"
+[    40.585] (**) ETPS/2 Elantech Touchpad: (accel) selected scheme none/0
+[    40.585] (**) ETPS/2 Elantech Touchpad: (accel) acceleration factor: 2.000
+[    40.585] (**) ETPS/2 Elantech Touchpad: (accel) acceleration threshold: 4
+[    40.586] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[    40.588] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[    40.589] (II) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse1)
+[    40.589] (II) No input driver specified, ignoring this device.
+[    40.589] (II) This device may have been added with another device file.
+[    40.589] (II) config/udev: Adding input device PC Speaker (/dev/input/event7)
+[    40.589] (II) No input driver specified, ignoring this device.
+[    40.589] (II) This device may have been added with another device file.
+[    40.592] (II) config/udev: Adding input device ThinkPad Extra Buttons (/dev/input/event6)
+[    40.592] (**) ThinkPad Extra Buttons: Applying InputClass "libinput keyboard catchall"
+[    40.592] (**) ThinkPad Extra Buttons: Applying InputClass "system-keyboard"
+[    40.592] (II) Using input driver 'libinput' for 'ThinkPad Extra Buttons'
+[    40.593] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 42 paused 0
+[    40.593] (**) ThinkPad Extra Buttons: always reports core events
+[    40.593] (**) Option "Device" "/dev/input/event6"
+[    40.594] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[    40.594] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
+[    40.594] (II) event6  - ThinkPad Extra Buttons: device is a switch device
+[    40.595] (II) event6  - ThinkPad Extra Buttons: device removed
+[    40.595] (**) Option "config_info" "udev:/sys/devices/platform/thinkpad_acpi/input/input7/event6"
+[    40.595] (II) XINPUT: Adding extended input device "ThinkPad Extra Buttons" (type: KEYBOARD, id 17)
+[    40.595] (**) Option "xkb_model" "pc105"
+[    40.595] (**) Option "xkb_layout" "de"
+[    40.595] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    40.596] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[    40.596] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
+[    40.596] (II) event6  - ThinkPad Extra Buttons: device is a switch device
+[   644.588] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[   644.589] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[   644.589] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[  1680.991] (II) event17 - Wacom Pen and multitouch sensor Finger: device removed
+[  1680.995] (II) config/udev: removing device Wacom Pen and multitouch sensor Finger
+[  1680.995] (**) Option "fd" "38"
+[  1680.995] (II) UnloadModule: "libinput"
+[  1680.995] (II) systemd-logind: releasing fd for 13:81
+[  1681.053] (II) event15 - Wacom Pen and multitouch sensor Pen: device removed
+[  1681.130] (II) config/udev: removing device Wacom Pen and multitouch sensor Pen
+[  1681.130] (**) Option "fd" "36"
+[  1681.131] (II) UnloadModule: "libinput"
+[  1681.131] (II) systemd-logind: releasing fd for 13:79
+[  1681.132] (EE) systemd-logind: failed to release device: Device not taken
+[  1684.412] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[  1684.412] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[  1684.412] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[  1684.984] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Finger (/dev/input/mouse3)
+[  1684.984] (II) No input driver specified, ignoring this device.
+[  1684.984] (II) This device may have been added with another device file.
+[  1685.698] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Pen (/dev/input/mouse2)
+[  1685.698] (II) No input driver specified, ignoring this device.
+[  1685.699] (II) This device may have been added with another device file.
+[  1685.699] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Pen (/dev/input/event15)
+[  1685.699] (**) Wacom Pen and multitouch sensor Pen: Applying InputClass "libinput tablet catchall"
+[  1685.700] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Pen'
+[  1685.701] (II) systemd-logind: got fd for /dev/input/event15 13:79 fd 47 paused 0
+[  1685.701] (**) Wacom Pen and multitouch sensor Pen: always reports core events
+[  1685.701] (**) Option "Device" "/dev/input/event15"
+[  1685.703] (II) event15 - Wacom Pen and multitouch sensor Pen: is tagged by udev as: Tablet
+[  1685.733] (II) event15 - Wacom Pen and multitouch sensor Pen: tablet 'Wacom Pen and multitouch sensor Pen' unknown to libwacom
+[  1685.746] (II) event15 - Wacom Pen and multitouch sensor Pen: device is a tablet
+[  1685.746] (II) event15 - Wacom Pen and multitouch sensor Pen: device removed
+[  1685.746] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0003/input/input26/event15"
+[  1685.746] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Pen" (type: TABLET, id 12)
+[  1685.748] (II) event15 - Wacom Pen and multitouch sensor Pen: is tagged by udev as: Tablet
+[  1685.762] (II) event15 - Wacom Pen and multitouch sensor Pen: tablet 'Wacom Pen and multitouch sensor Pen' unknown to libwacom
+[  1685.775] (II) event15 - Wacom Pen and multitouch sensor Pen: device is a tablet
+[  1685.776] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Finger (/dev/input/event17)
+[  1685.776] (**) Wacom Pen and multitouch sensor Finger: Applying InputClass "libinput touchscreen catchall"
+[  1685.776] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Finger'
+[  1685.807] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 50 paused 0
+[  1685.807] (**) Wacom Pen and multitouch sensor Finger: always reports core events
+[  1685.807] (**) Option "Device" "/dev/input/event17"
+[  1685.810] (II) event17 - Wacom Pen and multitouch sensor Finger: is tagged by udev as: Touchscreen
+[  1685.810] (II) event17 - Wacom Pen and multitouch sensor Finger: device is a touch device
+[  1685.810] (II) event17 - Wacom Pen and multitouch sensor Finger: device removed
+[  1685.810] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0003/input/input27/event17"
+[  1685.810] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Finger" (type: TOUCHSCREEN, id 13)
+[  1685.810] (**) Option "AccelerationScheme" "none"
+[  1685.810] (**) Wacom Pen and multitouch sensor Finger: (accel) selected scheme none/0
+[  1685.810] (**) Wacom Pen and multitouch sensor Finger: (accel) acceleration factor: 2.000
+[  1685.810] (**) Wacom Pen and multitouch sensor Finger: (accel) acceleration threshold: 4
+[  1685.812] (II) event17 - Wacom Pen and multitouch sensor Finger: is tagged by udev as: Touchscreen
+[  1685.812] (II) event17 - Wacom Pen and multitouch sensor Finger: device is a touch device
+[  3787.796] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[  3787.796] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[  3787.796] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[  5323.740] (II) libinput: Wacom Pen and multitouch sensor Pen: needs a virtual subdevice
+[  5323.741] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): Applying InputClass "libinput tablet catchall"
+[  5323.741] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Pen Pen (0x8124a177)'
+[  5323.741] (II) systemd-logind: returning pre-existing fd for /dev/input/event15 13:79
+[  5323.741] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): always reports core events
+[  5323.741] (**) Option "Device" "/dev/input/event15"
+[  5323.741] (II) libinput: Wacom Pen and multitouch sensor Pen Pen (0x8124a177): is a virtual subdevice
+[  5323.741] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0003/input/input26/event15"
+[  5323.741] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Pen Pen (0x8124a177)" (type: STYLUS, id 18)
+[  5323.741] (**) Option "AccelerationScheme" "none"
+[  5323.741] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): (accel) selected scheme none/0
+[  5323.741] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): (accel) acceleration factor: 2.000
+[  5323.741] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): (accel) acceleration threshold: 4
+[  5326.020] (II) libinput: Wacom Pen and multitouch sensor Pen: needs a virtual subdevice
+[  5326.020] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): Applying InputClass "libinput tablet catchall"
+[  5326.020] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Pen Eraser (0x8124a177)'
+[  5326.020] (II) systemd-logind: returning pre-existing fd for /dev/input/event15 13:79
+[  5326.020] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): always reports core events
+[  5326.020] (**) Option "Device" "/dev/input/event15"
+[  5326.020] (II) libinput: Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): is a virtual subdevice
+[  5326.020] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0003/input/input26/event15"
+[  5326.020] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Pen Eraser (0x8124a177)" (type: ERASER, id 19)
+[  5326.020] (**) Option "AccelerationScheme" "none"
+[  5326.020] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): (accel) selected scheme none/0
+[  5326.020] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): (accel) acceleration factor: 2.000
+[  5326.020] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): (accel) acceleration threshold: 4
+[  5535.075] (EE) event12 - ETPS/2 Elantech Touchpad: kernel bug: Touch jump detected and discarded.
+See https://wayland.freedesktop.org/libinput/doc/1.21.0/touchpad-jumping-cursors.html for details
+[  7022.590] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[  7022.591] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[  7022.591] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 12881.423] (EE) client bug: timer event12 keyboard: scheduled expiry is in the past (-2268ms), your system is too slow
+[ 12881.510] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 12881.510] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 12881.510] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 12895.499] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 12895.500] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 12895.500] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 13912.424] (II) event12 - ETPS/2 Elantech Touchpad: SYN_DROPPED event - some input events have been lost.
+[ 13912.424] (EE) client bug: timer event12 hold: scheduled expiry is in the past (-383ms), your system is too slow
+[ 13912.453] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 13912.453] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 13912.453] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 13912.455] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 13942.563] (II) AMDGPU(0): Allocate new frame buffer 2560x2520
+[ 13942.563] (II) AMDGPU(0):  => pitch 10240 bytes
+[ 13952.847] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 13952.847] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 13952.847] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 13955.595] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 13955.595] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 13955.595] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 13955.598] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 17960.917] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 17960.917] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 17960.917] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 17960.920] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 17960.923] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 17960.923] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 17960.923] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 17960.925] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 17960.929] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 17960.929] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 17960.929] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 17960.931] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 17960.940] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 17960.940] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 17960.940] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 17960.942] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 17960.945] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 17960.945] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 17960.945] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 17960.948] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 17960.951] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 17960.951] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 17960.951] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 17960.953] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 19782.965] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 19782.965] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 19782.965] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 19782.967] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 19820.472] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 19820.472] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 19820.472] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 19820.474] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 19945.950] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 19945.950] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 19945.950] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 19945.951] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 19983.278] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 19983.278] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 19983.278] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 19983.279] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 19995.776] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 19995.776] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 19995.776] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 19995.778] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 20048.222] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20048.222] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20048.222] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 20048.223] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 20189.053] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20189.053] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20189.053] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 20189.055] (--) AMDGPU(0): HDMI max TMDS frequency 300000KHz
+[ 20530.223] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 20530.290] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 20530.290] (II) AMDGPU(0): Allocate new frame buffer 1920x1080
+[ 20530.291] (II) AMDGPU(0):  => pitch 7680 bytes
+[ 20553.081] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20553.082] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20553.082] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 20931.943] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20931.943] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20931.943] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 20958.044] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20958.044] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20958.044] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 20962.799] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20962.799] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20962.799] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 20981.085] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20981.085] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20981.085] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 20990.072] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20990.072] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20990.072] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 20995.301] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 20995.301] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 20995.301] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 21014.735] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 21014.735] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 21014.735] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 21236.624] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 21236.624] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 21236.625] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 21388.432] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 21388.432] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 21388.432] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 21758.415] (II) event17 - Wacom Pen and multitouch sensor Finger: device removed
+[ 21758.418] (II) config/udev: removing device Wacom Pen and multitouch sensor Finger
+[ 21758.419] (**) Option "fd" "50"
+[ 21758.419] (II) UnloadModule: "libinput"
+[ 21758.419] (II) systemd-logind: releasing fd for 13:81
+[ 21758.461] (II) event15 - Wacom Pen and multitouch sensor Pen: device removed
+[ 21758.463] (II) config/udev: removing device Wacom Pen and multitouch sensor Pen
+[ 21758.463] (**) Option "fd" "47"
+[ 21758.463] (II) UnloadModule: "libinput"
+[ 21758.464] (II) systemd-logind: not releasing fd for 13:79, still in use
+[ 21758.464] (II) config/udev: removing device Wacom Pen and multitouch sensor Pen Pen (0x8124a177)
+[ 21758.464] (**) Option "fd" "47"
+[ 21758.464] (II) UnloadModule: "libinput"
+[ 21758.464] (II) systemd-logind: not releasing fd for 13:79, still in use
+[ 21758.464] (II) config/udev: removing device Wacom Pen and multitouch sensor Pen Eraser (0x8124a177)
+[ 21758.464] (**) Option "fd" "47"
+[ 21758.466] (II) UnloadModule: "libinput"
+[ 21758.466] (II) systemd-logind: releasing fd for 13:79
+[ 21761.778] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 21761.778] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 21761.778] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 21762.326] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Finger (/dev/input/mouse3)
+[ 21762.326] (II) No input driver specified, ignoring this device.
+[ 21762.326] (II) This device may have been added with another device file.
+[ 21762.346] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Pen (/dev/input/mouse2)
+[ 21762.346] (II) No input driver specified, ignoring this device.
+[ 21762.346] (II) This device may have been added with another device file.
+[ 21762.538] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Pen (/dev/input/event15)
+[ 21762.538] (**) Wacom Pen and multitouch sensor Pen: Applying InputClass "libinput tablet catchall"
+[ 21762.538] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Pen'
+[ 21762.575] (II) systemd-logind: got fd for /dev/input/event15 13:79 fd 57 paused 0
+[ 21762.575] (**) Wacom Pen and multitouch sensor Pen: always reports core events
+[ 21762.575] (**) Option "Device" "/dev/input/event15"
+[ 21762.577] (II) event15 - Wacom Pen and multitouch sensor Pen: is tagged by udev as: Tablet
+[ 21762.606] (II) event15 - Wacom Pen and multitouch sensor Pen: tablet 'Wacom Pen and multitouch sensor Pen' unknown to libwacom
+[ 21762.618] (II) event15 - Wacom Pen and multitouch sensor Pen: device is a tablet
+[ 21762.618] (II) event15 - Wacom Pen and multitouch sensor Pen: device removed
+[ 21762.619] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0004/input/input29/event15"
+[ 21762.619] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Pen" (type: TABLET, id 12)
+[ 21762.621] (II) event15 - Wacom Pen and multitouch sensor Pen: is tagged by udev as: Tablet
+[ 21762.633] (II) event15 - Wacom Pen and multitouch sensor Pen: tablet 'Wacom Pen and multitouch sensor Pen' unknown to libwacom
+[ 21762.646] (II) event15 - Wacom Pen and multitouch sensor Pen: device is a tablet
+[ 21762.719] (II) config/udev: Adding input device Wacom Pen and multitouch sensor Finger (/dev/input/event17)
+[ 21762.719] (**) Wacom Pen and multitouch sensor Finger: Applying InputClass "libinput touchscreen catchall"
+[ 21762.719] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Finger'
+[ 21762.720] (II) systemd-logind: got fd for /dev/input/event17 13:81 fd 61 paused 0
+[ 21762.721] (**) Wacom Pen and multitouch sensor Finger: always reports core events
+[ 21762.721] (**) Option "Device" "/dev/input/event17"
+[ 21762.723] (II) event17 - Wacom Pen and multitouch sensor Finger: is tagged by udev as: Touchscreen
+[ 21762.723] (II) event17 - Wacom Pen and multitouch sensor Finger: device is a touch device
+[ 21762.723] (II) event17 - Wacom Pen and multitouch sensor Finger: device removed
+[ 21762.723] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0004/input/input30/event17"
+[ 21762.723] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Finger" (type: TOUCHSCREEN, id 13)
+[ 21762.724] (**) Option "AccelerationScheme" "none"
+[ 21762.724] (**) Wacom Pen and multitouch sensor Finger: (accel) selected scheme none/0
+[ 21762.724] (**) Wacom Pen and multitouch sensor Finger: (accel) acceleration factor: 2.000
+[ 21762.724] (**) Wacom Pen and multitouch sensor Finger: (accel) acceleration threshold: 4
+[ 21762.726] (II) event17 - Wacom Pen and multitouch sensor Finger: is tagged by udev as: Touchscreen
+[ 21762.727] (II) event17 - Wacom Pen and multitouch sensor Finger: device is a touch device
+[ 21813.254] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 21813.254] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 21813.254] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 21970.148] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 21970.148] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 21970.148] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22010.233] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22010.233] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22010.233] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22037.057] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22037.057] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22037.057] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22102.551] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22102.551] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22102.551] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22108.722] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22108.722] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22108.722] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22197.877] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22197.878] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22197.878] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22283.562] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22283.562] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22283.562] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22289.093] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22289.093] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22289.093] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22312.722] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22312.722] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22312.722] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22705.392] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22705.392] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22705.392] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22800.851] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22800.852] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22800.852] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22823.899] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22823.899] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22823.899] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22843.525] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22843.525] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22843.525] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 22964.283] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 22964.283] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 22964.283] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 23007.266] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 23007.266] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 23007.266] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 23488.469] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 23488.469] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 23488.469] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 23624.246] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 23624.247] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 23624.247] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 23677.621] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 23677.621] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 23677.621] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 24003.017] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 24003.017] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 24003.017] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 24148.402] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 24148.402] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 24148.402] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 24399.925] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 24399.925] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 24399.925] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 24672.011] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 24672.011] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 24672.011] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 24730.075] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 24730.075] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 24730.075] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 24738.946] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 24738.946] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 24738.946] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 24743.752] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 24743.752] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 24743.752] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25125.913] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25125.913] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25125.913] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25147.086] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25147.086] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25147.086] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25219.900] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25219.900] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25219.900] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25246.906] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25246.906] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25246.906] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25447.058] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25447.058] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25447.058] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25461.367] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25461.367] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25461.367] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25476.056] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25476.056] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25476.056] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25496.612] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25496.612] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25496.612] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25517.839] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25517.840] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25517.840] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25517.908] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 25517.909] (II) AMDGPU(0): Allocate new frame buffer 1080x1920
+[ 25517.910] (II) AMDGPU(0):  => pitch 4608 bytes
+[ 25532.552] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25532.552] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25532.552] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25532.625] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 25532.627] (II) AMDGPU(0): Allocate new frame buffer 1920x1080
+[ 25532.627] (II) AMDGPU(0):  => pitch 7680 bytes
+[ 25538.236] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25538.236] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25538.236] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25538.315] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 25538.316] (II) AMDGPU(0): Allocate new frame buffer 1080x1920
+[ 25538.316] (II) AMDGPU(0):  => pitch 4608 bytes
+[ 25546.838] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25546.838] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25546.838] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25555.541] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25555.541] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25555.541] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25555.615] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 25555.617] (II) AMDGPU(0): Allocate new frame buffer 1920x1080
+[ 25555.617] (II) AMDGPU(0):  => pitch 7680 bytes
+[ 25623.702] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25623.702] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25623.702] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25631.379] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25631.379] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25631.379] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25733.802] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25733.802] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25733.802] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25733.896] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 25733.897] (II) AMDGPU(0): Allocate new frame buffer 1080x1920
+[ 25733.897] (II) AMDGPU(0):  => pitch 4608 bytes
+[ 25738.090] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25738.090] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25738.090] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25738.185] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 25738.187] (II) AMDGPU(0): Allocate new frame buffer 1920x1080
+[ 25738.187] (II) AMDGPU(0):  => pitch 7680 bytes
+[ 25772.310] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25772.310] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25772.310] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25775.804] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25775.804] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25775.804] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25825.020] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25825.020] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25825.020] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25840.722] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25840.722] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25840.722] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25894.131] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25894.131] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25894.131] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25907.766] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25907.766] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25907.766] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 25942.892] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 25942.892] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 25942.892] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 26183.448] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 26183.448] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 26183.448] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 27429.771] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 27429.771] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 27429.771] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 27443.035] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 27443.035] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 27443.035] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 27483.924] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 27483.924] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 27483.924] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 27506.219] (EE) event4  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 2464ms, your system is too slow
+[ 27506.219] (EE) client bug: timer event12 keyboard: scheduled expiry is in the past (-2265ms), your system is too slow
+[ 27506.219] (EE) client bug: timer event12 keyboard: scheduled expiry is in the past (-1048ms), your system is too slow
+[ 27506.219] (EE) client bug: timer event12 keyboard: scheduled expiry is in the past (-532ms), your system is too slow
+[ 27506.219] (EE) client bug: timer event12 keyboard: scheduled expiry is in the past (-227ms), your system is too slow
+[ 27506.304] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 27506.304] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 27506.304] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 28155.751] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 28155.751] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 28155.751] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 28159.790] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 28159.790] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 28159.790] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 28166.514] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 28166.514] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 28166.514] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 28175.376] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 28175.376] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 28175.376] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 28262.627] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 28262.627] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 28262.627] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 28262.717] (**) Option "fd" "41"
+[ 28262.717] (II) event12 - ETPS/2 Elantech Touchpad: device removed
+[ 28262.734] (**) Option "fd" "42"
+[ 28262.734] (II) event6  - ThinkPad Extra Buttons: device removed
+[ 28262.742] (**) Option "fd" "40"
+[ 28262.742] (II) event11 - ETPS/2 Elantech TrackPoint: device removed
+[ 28272.096] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 28272.096] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 28272.096] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 28272.171] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[ 28272.171] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
+[ 28272.171] (II) event6  - ThinkPad Extra Buttons: device is a switch device
+[ 28272.188] (II) event11 - ETPS/2 Elantech TrackPoint: is tagged by udev as: Mouse Pointingstick
+[ 28272.189] (II) event11 - ETPS/2 Elantech TrackPoint: device is a pointer
+[ 28272.199] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 28272.210] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 29535.244] (II) libinput: Wacom Pen and multitouch sensor Pen: needs a virtual subdevice
+[ 29535.244] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): Applying InputClass "libinput tablet catchall"
+[ 29535.244] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Pen Pen (0x8124a177)'
+[ 29535.244] (II) systemd-logind: returning pre-existing fd for /dev/input/event15 13:79
+[ 29535.244] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): always reports core events
+[ 29535.244] (**) Option "Device" "/dev/input/event15"
+[ 29535.244] (II) libinput: Wacom Pen and multitouch sensor Pen Pen (0x8124a177): is a virtual subdevice
+[ 29535.244] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0004/input/input29/event15"
+[ 29535.244] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Pen Pen (0x8124a177)" (type: STYLUS, id 18)
+[ 29535.244] (**) Option "AccelerationScheme" "none"
+[ 29535.245] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): (accel) selected scheme none/0
+[ 29535.245] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): (accel) acceleration factor: 2.000
+[ 29535.245] (**) Wacom Pen and multitouch sensor Pen Pen (0x8124a177): (accel) acceleration threshold: 4
+[ 29540.935] (II) libinput: Wacom Pen and multitouch sensor Pen: needs a virtual subdevice
+[ 29540.935] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): Applying InputClass "libinput tablet catchall"
+[ 29540.935] (II) Using input driver 'libinput' for 'Wacom Pen and multitouch sensor Pen Eraser (0x8124a177)'
+[ 29540.935] (II) systemd-logind: returning pre-existing fd for /dev/input/event15 13:79
+[ 29540.935] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): always reports core events
+[ 29540.935] (**) Option "Device" "/dev/input/event15"
+[ 29540.935] (II) libinput: Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): is a virtual subdevice
+[ 29540.935] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:07:00.4/usb3/3-4/3-4.3/3-4.3:1.0/0003:056A:51F8.0004/input/input29/event15"
+[ 29540.935] (II) XINPUT: Adding extended input device "Wacom Pen and multitouch sensor Pen Eraser (0x8124a177)" (type: ERASER, id 19)
+[ 29540.935] (**) Option "AccelerationScheme" "none"
+[ 29540.935] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): (accel) selected scheme none/0
+[ 29540.935] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): (accel) acceleration factor: 2.000
+[ 29540.935] (**) Wacom Pen and multitouch sensor Pen Eraser (0x8124a177): (accel) acceleration threshold: 4
+[ 29611.398] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 29611.399] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 29611.399] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 29611.463] (II) event12 - ETPS/2 Elantech Touchpad: device removed
+[ 29611.479] (II) event11 - ETPS/2 Elantech TrackPoint: device removed
+[ 29611.487] (II) event6  - ThinkPad Extra Buttons: device removed
+[ 29631.487] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 29631.489] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 29687.015] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 29687.015] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 29687.015] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 29687.112] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 29687.114] (II) AMDGPU(0): Allocate new frame buffer 1080x1920
+[ 29687.114] (II) AMDGPU(0):  => pitch 4608 bytes
+[ 29687.875] (II) event12 - ETPS/2 Elantech Touchpad: device removed
+[ 29731.096] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 29731.096] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 29731.096] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 29731.185] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 29731.186] (II) AMDGPU(0): Allocate new frame buffer 1920x1080
+[ 29731.187] (II) AMDGPU(0):  => pitch 7680 bytes
+[ 29731.918] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[ 29731.918] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
+[ 29731.918] (II) event6  - ThinkPad Extra Buttons: device is a switch device
+[ 29731.936] (II) event11 - ETPS/2 Elantech TrackPoint: is tagged by udev as: Mouse Pointingstick
+[ 29731.937] (II) event11 - ETPS/2 Elantech TrackPoint: device is a pointer
+[ 29731.946] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 29731.948] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 32510.570] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 32510.570] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 32510.570] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 33975.445] (II) event4  - AT Translated Set 2 keyboard: SYN_DROPPED event - some input events have been lost.
+[ 33975.491] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 33975.491] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 33975.491] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 34577.192] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 34577.193] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 34577.193] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37237.370] (EE) client bug: timer event12 hold: scheduled expiry is in the past (-1544ms), your system is too slow
+[ 37237.370] (EE) client bug: timer event12 keyboard: scheduled expiry is in the past (-762ms), your system is too slow
+[ 37237.442] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37237.442] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37237.442] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37305.006] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37305.006] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37305.006] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37308.095] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37308.095] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37308.095] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37308.196] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 37308.197] (II) AMDGPU(0): Allocate new frame buffer 1080x1920
+[ 37308.197] (II) AMDGPU(0):  => pitch 4608 bytes
+[ 37308.905] (II) event12 - ETPS/2 Elantech Touchpad: device removed
+[ 37308.913] (II) event6  - ThinkPad Extra Buttons: device removed
+[ 37308.920] (II) event11 - ETPS/2 Elantech TrackPoint: device removed
+[ 37315.039] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37315.039] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37315.039] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37315.137] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 37315.138] (II) AMDGPU(0): Allocate new frame buffer 1920x1080
+[ 37315.139] (II) AMDGPU(0):  => pitch 7680 bytes
+[ 37315.852] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 37315.854] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 37315.862] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[ 37315.863] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
+[ 37315.863] (II) event6  - ThinkPad Extra Buttons: device is a switch device
+[ 37315.871] (II) event11 - ETPS/2 Elantech TrackPoint: is tagged by udev as: Mouse Pointingstick
+[ 37315.872] (II) event11 - ETPS/2 Elantech TrackPoint: device is a pointer
+[ 37323.899] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37323.899] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37323.899] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37323.991] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 37323.992] (II) AMDGPU(0): Allocate new frame buffer 1080x1920
+[ 37323.992] (II) AMDGPU(0):  => pitch 4608 bytes
+[ 37324.690] (II) event6  - ThinkPad Extra Buttons: device removed
+[ 37324.698] (II) event11 - ETPS/2 Elantech TrackPoint: device removed
+[ 37324.705] (II) event12 - ETPS/2 Elantech Touchpad: device removed
+[ 37337.381] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37337.381] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37337.381] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37337.492] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 37337.493] (II) AMDGPU(0): Allocate new frame buffer 1920x1080
+[ 37337.494] (II) AMDGPU(0):  => pitch 7680 bytes
+[ 37338.180] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 37338.182] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 37338.192] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[ 37338.192] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
+[ 37338.192] (II) event6  - ThinkPad Extra Buttons: device is a switch device
+[ 37338.201] (II) event11 - ETPS/2 Elantech TrackPoint: is tagged by udev as: Mouse Pointingstick
+[ 37338.201] (II) event11 - ETPS/2 Elantech TrackPoint: device is a pointer
+[ 37342.654] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37342.654] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37342.654] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37342.731] (II) event6  - ThinkPad Extra Buttons: device removed
+[ 37342.738] (II) event12 - ETPS/2 Elantech Touchpad: device removed
+[ 37342.745] (II) event11 - ETPS/2 Elantech TrackPoint: device removed
+[ 37351.000] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37351.000] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37351.000] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37351.076] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 37351.078] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 37351.087] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[ 37351.088] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
+[ 37351.088] (II) event6  - ThinkPad Extra Buttons: device is a switch device
+[ 37351.097] (II) event11 - ETPS/2 Elantech TrackPoint: is tagged by udev as: Mouse Pointingstick
+[ 37351.097] (II) event11 - ETPS/2 Elantech TrackPoint: device is a pointer
+[ 37762.208] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37762.208] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37762.208] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37765.212] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37765.212] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37765.212] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37770.370] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37770.370] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37770.370] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37809.381] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37809.381] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37809.381] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37858.822] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37858.822] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37858.822] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37907.154] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37907.154] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37907.154] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37922.808] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37922.808] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37922.808] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37922.828] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37922.828] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37922.828] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37954.153] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37954.154] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37954.154] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37954.174] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37954.174] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37954.174] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37968.624] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37968.624] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37968.624] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 37997.800] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 37997.800] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 37997.800] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 38001.035] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 38001.035] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 38001.035] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 38583.195] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 38583.195] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 38583.196] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 38583.212] (II) event12 - ETPS/2 Elantech Touchpad: device removed
+[ 38583.227] (II) event11 - ETPS/2 Elantech TrackPoint: device removed
+[ 38583.344] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 38583.346] (II) AMDGPU(0): Allocate new frame buffer 1080x1920
+[ 38583.346] (II) AMDGPU(0):  => pitch 4608 bytes
+[ 38584.001] (II) event6  - ThinkPad Extra Buttons: device removed
+[ 38592.718] (II) AMDGPU(0): EDID vendor "AUO", prod id 22829
+[ 38592.718] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[ 38592.718] (II) AMDGPU(0): Modeline "1920x1080"x0.0  142.60  1920 1978 2020 2080  1080 1083 1088 1142 -hsync -vsync (68.6 kHz eP)
+[ 38592.736] (II) event6  - ThinkPad Extra Buttons: is tagged by udev as: Keyboard Switch
+[ 38592.736] (II) event6  - ThinkPad Extra Buttons: device is a keyboard
+[ 38592.736] (II) event6  - ThinkPad Extra Buttons: device is a switch device
+[ 38592.815] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[ 38592.816] (II) AMDGPU(0): Allocate new frame buffer 1920x1080
+[ 38592.816] (II) AMDGPU(0):  => pitch 7680 bytes
+[ 38593.467] (II) event12 - ETPS/2 Elantech Touchpad: is tagged by udev as: Touchpad
+[ 38593.469] (II) event12 - ETPS/2 Elantech Touchpad: device is a touchpad
+[ 38593.485] (II) event11 - ETPS/2 Elantech TrackPoint: is tagged by udev as: Mouse Pointingstick
+[ 38593.486] (II) event11 - ETPS/2 Elantech TrackPoint: device is a pointer
